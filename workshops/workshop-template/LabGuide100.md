@@ -61,6 +61,99 @@ In this section you will create SSH keys to establish secure connections to your
 
 -   Search for “Terminal” to open your command line interface (CLI)
 
+![](./images/100/lab100-terminal.png)
 
+### **STEP 1: Generate a SSH key-pair**
+
+-   From your CLI input “ssh-keygen”
+
+-   Hit return if you want to use the default file path or specify your own file path
+
+-   Hit return if you do not want to use any pass phrase or input one if you do
+
+![](./images/100/lab100-terminal2.png)
+
+  ( Note: A public key (.pub extension), and a private key (no extension), will be generated in your file path. The           default   file path is a hidden file path called .ssh . Show hidden file paths in your Finder by simultaneously clicking     “CMD +       SHIFT + . ” )
+
+## Part 2. Create VCN and related resources
+
+### **STEP 3: Sign in to Oracle Cloud**
+
+-   Go to [cloud.oracle.com](https://cloud.oracle.com), click **Sign In** to sign in with your Oracle Cloud account.
+
+![](./images/100/Picture100-2.png)
+
+-   Enter your **Cloud Account Name** and click **My Services**.
+
+![](./images/100/Picture100-3.jpg)
+
+-   Enter your Oracle Cloud **username** and **password**, and click **Sign In**.
+
+![](./images/100/Picture100-4.png)
+
+### **STEP 4: Create VCN and related resources**
+
+-   Open dashboard menu, expand services list, and click on Compute.
+
+![](./images/100/lab100-4.png)
+
+-   From your compute page, open dashboard menu, expand network tab, and click on Virtual Cloud Networks.
+
+![](./images/100/lab100-5.png)
+
+-   Click on Create Virtual Cloud Network.
+
+![](./images/100/lab100-6.png)
+
+-   Give your VCN a name, and check the option to create related resources. 
+    (Note: You will need this VCN name for provisioning a database instance)
+    
+![](./images/100/lab100-7.png)    
+
+-   Scroll to the bottom and click Create Virtual Cloud Network
+
+![](./images/100/lab100-8.png) 
+
+## Part 3. Provision Database system
+
+### **STEP 5: Provision your Database instance**
+
+-   Open the dashboard menu, and click on “Bare Metal, VM, and Exadata”.
+
+![](./images/100/lab100-9.png) 
+
+-   Click on Launch DB System
+
+![](./images/100/lab100-10.png) 
+
+-   Fill out the form with a name, and choose your database size/performance capabilities. It is recommended that you choose the same options depicted in the picture below.
+
+
+![](./images/100/lab100-11.png) 
+
+-   Choose “License Included” and browse for the public key you created in the previous lab.
+
+![](./images/100/lab100-12.png) 
+
+-   Select the VCN that you created, the default subnet for that VCN, and create a hostname prefix for your database
+
+![](./images/100/lab100-13.png)
+
+-   Select the latest database version, and choose “On-line Tracsaction Processing for Database WorkLoad
+
+-   Fill out a database name and password
+
+![](./images/100/lab100-14.png)
+
+-   Click on Launch DB System
+
+![](./images/100/lab100-15.png)
+
+
+
+
+
+## Great Work - All Done with Lab100!
+**You are ready to move on to the next lab. You may now close this tab.**
 
 
