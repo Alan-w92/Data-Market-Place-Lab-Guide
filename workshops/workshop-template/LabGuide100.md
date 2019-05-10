@@ -81,15 +81,15 @@ In this section you will create SSH keys to establish secure connections to your
 
 -   Go to [cloud.oracle.com](https://cloud.oracle.com), click **Sign In** to sign in with your Oracle Cloud account.
 
-![](./images/100/Picture100-2.png)
+![](./images/100/lab100-signin1.png)
 
 -   Enter your **Cloud Account Name** and click **My Services**.
 
-![](./images/100/Picture100-3.jpg)
+![](./images/100/lab100-signin2.jpg)
 
 -   Enter your Oracle Cloud **username** and **password**, and click **Sign In**.
 
-![](./images/100/Picture100-4.png)
+![](./images/100/lab100-signin3.png)
 
 ### **STEP 4: Create VCN and related resources**
 
