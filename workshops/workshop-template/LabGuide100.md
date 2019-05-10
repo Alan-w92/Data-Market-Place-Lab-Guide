@@ -85,7 +85,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 -   Enter your **Cloud Account Name** and click **My Services**.
 
-![](./images/100/lab100-signin2.jpg)
+![](./images/100/lab100-signin2.png)
 
 -   Enter your Oracle Cloud **username** and **password**, and click **Sign In**.
 
