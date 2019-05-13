@@ -19,6 +19,8 @@ This lab walks you through the steps to get started with provisioning a Database
 ## Required Artifacts
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 
+-   [PuTTY Key Generator](https://www.putty.org/)for Windows operating systems.
+
 # Provision Database system
 
 
