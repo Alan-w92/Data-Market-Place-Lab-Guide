@@ -89,8 +89,11 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 ![](./images/200/lab200-8.png)
 
 Vi Editor Commands
+
 ‘i’		Insert mode
+
 ‘:q!’		Quit without saving
+
 ‘wq!’		Write and quit
 
 
@@ -169,7 +172,7 @@ Vi Editor Commands
   (Note: If pdb1 doesn’t exist, then you may create one with this command. Change the
 	username and password of the user to anything you wish.)
 	
-	```CREATE PLUGGABLE DATABASE pdb1 ADMIN USER pdb_adm IDENTIFIED BY Password1;```
+	CREATE PLUGGABLE DATABASE pdb1 ADMIN USER pdb_adm IDENTIFIED BY Password1;
   
 ![](./images/200/lab200-17.png)
 
@@ -184,7 +187,7 @@ Vi Editor Commands
 
 -   Create the APEX Instance Administration user and set the password.
 	
-	begin
+	```begin
 	
 	apex_util.set_security_group_id( 10 );
 	
