@@ -97,7 +97,9 @@ Vi Editor Commands
 -   Add below environment variables at the end of the file and save it. (Replace SID and HOME file path with your own)
 
 	```export ORACLE_SID=APEXDB```
+	
 	```export ORACLE_HOME=/u01/app/oracle/product/12.1.0.2/dbhome_1```
+	
 	```export PATH=$ORACLE_HOME/bin:$PATH```
   
 ![](./images/200/lab200-9.png)
@@ -133,6 +135,7 @@ Vi Editor Commands
 ### **STEP 2: Changing to the Oracle user**
 
 -   Change user with the following command
+
 	```sudo su – oracle```
   
 ![](./images/200/lab200-13.png)
@@ -140,6 +143,7 @@ Vi Editor Commands
 ### **STEP 3: Unzip your APEX files**
 
 -   Use the following command to unzip your APEX files (Replace file name with your own)
+
 	```unzip apex.zip```
   
 ![](./images/200/lab200-14.png)
@@ -147,6 +151,7 @@ Vi Editor Commands
 ### **STEP 4: APEX Configuration**
 
 -   Change to the apex directory with the following command
+
 	```cd apex```
   
 ![](./images/200/lab200-15.png)
@@ -179,56 +184,57 @@ Vi Editor Commands
 
 -   Create the APEX Instance Administration user and set the password.
 	
-	```begin
+	begin
 	
-	```apex_util.set_security_group_id( 10 );
+	apex_util.set_security_group_id( 10 );
 	
-	```apex_util.create_user(p_user_name => ‘ADMIN’,p_email_address =>
+	apex_util.create_user(p_user_name => ‘ADMIN’,p_email_address =>
 	
-	```‘Enter your Email id’,p_web_password => ‘BEstrO0ng_#11’,p_developer_privs 	=>’ADMIN’ );
+	‘Enter your Email id’,p_web_password => ‘BEstrO0ng_#11’,p_developer_privs 	=>’ADMIN’ );
 	
-	```apex_util.set_security_group_id( null );
+	apex_util.set_security_group_id( null );
 	
-	```commit;
+	commit;
 	
-	```end;
+	end;
 	
-	```/```
-
-	(Note: All the single quotes in this set of commands are in a different syntax than they would appear in a terminal.       Copying these single quotes will cause errors in your sql commands.)
+	/
+	```
 
 ![](./images/200/lab200-19.png)
 
 -   Run APEX REST configuration, and set the passwords of APEX_REST_PUBLIC_USER and APEX_LISTENER.
+
 	```@apex_rest_config_core.sql ./ BEstrO0ng_#11 BEstrO0ng_#11```
   
 ![](./images/200/lab200-20.png)
 
--   Create a network ACE for APEX (This is used when consuming Web services or sending outbound mail. Quotes need to be typed in manually. Replace the * with your own IP).
+-   Create a network ACE for APEX (This is used when consuming Web services or sending outbound mail. Replace the * with your own IP).
 
 	```l_acl_path varchar2(4000);*
 	
-	```l_apex_schema varchar2(100);*
+	l_apex_schema varchar2(100);*
 	
-	```begin*
+	begin*
 	
-	```for c1 in (select schema from sys.dba_registry where comp_id = ‘APEX’) loop*
+	for c1 in (select schema from sys.dba_registry where comp_id = ‘APEX’) loop*
 	
-	```l_apex_schema := c1.schema;*
+	l_apex_schema := c1.schema;*
 	
-	```end loop;*
+	end loop;*
 	
- 	 ```sys.dbms_network_acl_admin.append_host_ace(host => ‘*‘,ace => 	xs$ace_type(privilege_list => xs$name_list(‘connect’),principal_name => 	l_apex_schema,principal_type => xs_acl.ptype_db));*
+ 	 sys.dbms_network_acl_admin.append_host_ace(host => ‘*‘,ace => 	xs$ace_type(privilege_list => xs$name_list(‘connect’),principal_name => 	l_apex_schema,principal_type => xs_acl.ptype_db));*
 	 
-	```commit;```
+	commit;
 	
 	*end;*
 	
 	*/*
+	```
   
 ![](./images/200/lab200-21.png)
   
--   Exit SQL*Plus with “exit” command
+-   Exit SQL*Plus with ```exit``` command
 
 ![](./images/200/lab200-22.png)
 
