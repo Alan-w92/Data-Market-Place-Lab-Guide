@@ -35,6 +35,10 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 ### **STEP 2: Copy or move APEX into your database**
 
+-   Locate your database IP address in your cloud tenancy be navigating to your database instance
+
+![](./images/200/lab200-4.png)
+
 -   Use the following command to copy APEX files into your database instance after navigating to the location of where your APEX files are located (Replace the zip file name and IP address with your own)
 
 	For Windows (Use PuTTY Program)
