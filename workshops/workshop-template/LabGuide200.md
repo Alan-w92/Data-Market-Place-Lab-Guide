@@ -90,7 +90,8 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 Vi Editor Commands
 
-```‘i’     Insert mode
+```
+‘i’       Insert mode
 
 ‘:q!’     Quit without saving
 
@@ -193,7 +194,7 @@ Vi Editor Commands
 	
 	apex_util.create_user(p_user_name => ‘ADMIN’,p_email_address =>
 	
-	‘Enter your Email id’,p_web_password => ‘BEstrO0ng_#11’,p_developer_privs =>’ADMIN’ );
+	‘Enter your Email id’,p_web_password => ‘BEstrO0ng_#11’,p_developer_privs => ’ADMIN’ );
 	
 	apex_util.set_security_group_id( null );
 	
@@ -226,7 +227,7 @@ Vi Editor Commands
 	
 	end loop;*
 	
- 	sys.dbms_network_acl_admin.append_host_ace(host => ‘*‘,ace => 	xs$ace_type(privilege_list => xs$name_list(‘connect’),principal_name => l_apex_schema,principal_type => xs_acl.ptype_db));*
+ 	sys.dbms_network_acl_admin.append_host_ace(host => ‘*‘,ace => xs$ace_type(privilege_list => xs$name_list(‘connect’),principal_name => l_apex_schema,principal_type => xs_acl.ptype_db));*
 	 
 	commit;
 	
