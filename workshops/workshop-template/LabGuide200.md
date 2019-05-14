@@ -89,9 +89,12 @@ Vi Editor Commands
 -   ‘:q!’		Quit without saving
 -   ‘wq!’		Write and quit
 
+
 -   Add below environment variables at the end of the file and save it. (Replace SID and HOME file path with your own)
 	*export ORACLE_SID=APEXDB*
+	
 	*export ORACLE_HOME=/u01/app/oracle/product/12.1.0.2/dbhome_1*
+	
 	*export PATH=$ORACLE_HOME/bin:$PATH*
   
 ![](./images/200/lab200-9.png)
@@ -146,14 +149,17 @@ Vi Editor Commands
 
 -   Start SQL*Plus and ensure you are connecting to your PDB and not to the “root” of the container database. Run the Commands below to login.
 	*sqlplus / as sysdba*
+	
 	*alter session set container=pdb1;*
+	
 	*@apexins sysaux sysaux temp /i/*
   
 ![](./images/200/lab200-16.png)
 
   (Note: If pdb1 doesn’t exist, then you may create one with this command. Change the
 	username and password of the user to anything you wish.)
-	*CREATE PLUGGABLE DATABASE pdb1 ADMIN USER pdb_adm IDENTIFIED BY 	Password1;*
+	
+	*CREATE PLUGGABLE DATABASE pdb1 ADMIN USER pdb_adm IDENTIFIED BY Password1;*
   
 ![](./images/200/lab200-17.png)
 
@@ -168,15 +174,22 @@ Vi Editor Commands
 -   Create the APEX Instance Administration user and set the password.
 	
 	*begin*
+	
 	*apex_util.set_security_group_id( 10 );*
+	
 	*apex_util.create_user(p_user_name => ‘ADMIN’,p_email_address =>*
+	
 	*‘Enter your Email id’,p_web_password => ‘BEstrO0ng_#11’,p_developer_privs 	=>’ADMIN’ );*
+	
 	*apex_util.set_security_group_id( null );*
+	
 	*commit;*
+	
 	*end;*
+	
 	*/*
 
-	(Note: All the single quotes in this set of commands are in a different syntax than they 	would appear in a terminal.       Copying these single quotes will cause errors in your sql commands.)
+	(Note: All the single quotes in this set of commands are in a different syntax than they would appear in a terminal.       Copying these single quotes will cause errors in your sql commands.)
 
 ![](./images/200/lab200-19.png)
 
@@ -187,14 +200,23 @@ Vi Editor Commands
 
 -   Create a network ACE for APEX (This is used when consuming Web services or sending outbound mail. Quotes need to be typed in manually. Replace the * with your own IP).
 	*l_acl_path varchar2(4000);*
+	
 	*l_apex_schema varchar2(100);*
+	
 	*begin*
+	
 	*for c1 in (select schema from sys.dba_registry where comp_id = ‘APEX’) loop*
+	
 	*l_apex_schema := c1.schema;*
+	
 	*end loop;*
-  *sys.dbms_network_acl_admin.append_host_ace(host => ‘*‘,ace => 	xs$ace_type(privilege_list => xs$name_list(‘connect’),principal_name => 	l_apex_schema,principal_type => xs_acl.ptype_db));*
+	
+ 	 *sys.dbms_network_acl_admin.append_host_ace(host => ‘*‘,ace => 	xs$ace_type(privilege_list => xs$name_list(‘connect’),principal_name => 	l_apex_schema,principal_type => xs_acl.ptype_db));*
+	 
 	*commit;*
+	
 	*end;*
+	
 	*/*
   
 ![](./images/200/lab200-21.png)
