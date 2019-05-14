@@ -61,7 +61,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 ![](./images/200/lab200-4.png)
 
 
--   Open your windows Command Prompt or mac Terminal
+-   Open your windows PuTTY Program or mac Terminal
 
 
 -   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier
