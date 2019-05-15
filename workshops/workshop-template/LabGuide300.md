@@ -243,4 +243,5 @@ user.tablespace.temp=TEMP
 -   Type **wq!** and press your return key to save the file
 
 
-
+## Great Work - All Done with Lab300!
+**You are ready to move on to the next lab. You may now close this tab.**
