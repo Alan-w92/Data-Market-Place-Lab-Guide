@@ -17,7 +17,7 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 # Oracle Rest Data Services Installation
 
-### **STEP 1: Download Oracle Rest Data Services 18.2 or later (see [Oracle Technology Network download site(https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html)**
+### **STEP 1: Download Oracle Rest Data Services 18.2 or later (see [Oracle Technology Network download site (https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html)**
 
 -   Accept the license agreement and download the ORDS file
 
@@ -100,16 +100,18 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 ### **STEP 5: ORDS Configuration Part 1**
 
--   Use the “exit” command to move back to opc user. Then use “sudo su” command to move to root user.
+-   Use the **exit** command to move back to opc user. Then use **sudo su** command to move to root user.
   
 ![](./images/300/lab300-13.png) 
 
 -   Check access rule in iptables and open port for 80 and 8080 with the following commands.
 
-	```iptables -I INPUT 8 -p tcp -m state --state NEW -m tcp --dport 8080 -j ACCEPT -m comment --comment "Required for APEX."
+	```
+	iptables -I INPUT 8 -p tcp -m state --state NEW -m tcp --dport 8080 -j ACCEPT -m comment --comment "Required for APEX."
 	service iptables save
 	iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
 	service iptables save
+	
   
 ![](./images/300/lab300-14.png) 
     
