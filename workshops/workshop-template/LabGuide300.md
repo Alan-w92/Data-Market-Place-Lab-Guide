@@ -50,13 +50,13 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 -   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier
 
-	```ssh -i <File_Path_To_Private_SSH_Key> opc@<Database_IP_Address>```
+  	```ssh -i <File_Path_To_Private_SSH_Key> opc@<Database_IP_Address>```
   
 ![](./images/300/lab300-5.png)
 
 -   Change to the Oracle user with the following command
 
-  ```sudo su – oracle```
+ 	 ```sudo su – oracle```
   
 ![](./images/300/lab300-6.png)
 
@@ -64,13 +64,13 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 -   Create a directory called “ords” with the following command 
 
-  ```mkdir ords```
+ 	 ```mkdir ords```
   
 ![](./images/300/lab300-7.png)  
 
 -   Move back to opc user 
 
-  ```exit```
+  	```exit```
   
 ![](./images/300/lab300-8.png) 
 
