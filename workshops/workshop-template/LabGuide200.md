@@ -247,5 +247,5 @@ Vi Editor Commands
 ![](./images/200/lab200-22.png)
 
 
-## Great Work - All Done with Lab300!
+## Great Work - All Done with Lab200!
 **You are ready to move on to the next lab. You may now close this tab.**
