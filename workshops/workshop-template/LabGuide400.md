@@ -21,7 +21,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 -   Open windows PuTTY program or mac Terminal
 
--   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier
+-   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the database IP address.
 
 	```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
 
@@ -29,29 +29,29 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 -   Change to root user with the following command
 
-  ```sudo su ```
+	```sudo su ```
 
 ![](./images/400/lab400-2.png)
 
 -   Start mailing service
     
-    ```Service sendmail start```
+    	```Service sendmail start```
 
 ![](./images/400/lab400-3.png)
 
 -   Change to Oracle user with the following command
 
-  ```sudo su – oracle```
+  	```sudo su – oracle```
   
 ![](./images/400/lab400-4.png)
 
 -   Change to ords directory with the following command 
 
-  ```cd ords```
+  	```cd ords```
 
 -   Start ORDS with the following command
 
-  ```java -Dconfig.dir=/home/oracle/ords -jar ords.war install simple –preserveParamFile```
+ 	 ```java -Dconfig.dir=/home/oracle/ords -jar ords.war install simple –preserveParamFile```
   
 ![](./images/400/lab400-5.png)
 (Note: The first time you ORDS, you will be prompted for database username and password. Use “sys” for the username and your database password.)
@@ -60,7 +60,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 -   Navigate to APEX with the following url (Replace the IP address with your own )
 
-  ```http://132.145.213.221:8080/ords```
+  	```http://132.145.213.221:8080/ords```
   
 ![](./images/400/lab400-6.png)
 
@@ -86,7 +86,8 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 -   Log into internal APEX workspace with these credentials 
 
-```Admin Workspace:	INTERNAL
+```
+Admin Workspace:	INTERNAL
 User:			ADMIN
 Pass:			BEstrO0ng_#33
 ```
