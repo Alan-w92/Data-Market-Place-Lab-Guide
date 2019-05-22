@@ -48,7 +48,7 @@ Data Marketplace Administration SQL File
 
     132.145.213.221 (Note: Use Ctrl + F or CMD + F to bring up the search option in your editor)
     
-![](./images/500/lab500-1.jpg)
+![](./images/500/lab500-1.png)
 
 ### **STEP 2: Logging into APEX workspace**
 
@@ -58,35 +58,35 @@ Data Marketplace Administration SQL File
 
     ```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
     
-![](./images/500/lab500-2.jpg)
+![](./images/500/lab500-2.png)
 
 -   Change to Oracle user with the following command.
 
     ```sudo su – oracle```
    
-![](./images/500/lab500-3.jpg)
+![](./images/500/lab500-3.png)
 
 -   Change to ords directory with the following command.
 
     ```cd ords```
     
-![](./images/500/lab500-4.jpg) 
+![](./images/500/lab500-4.png) 
 
 -   Start ORDS with the following command.
 
     ```java -Dconfig.dir=/home/oracle/ords -jar ords.war install simple –preserveParamFile```
     
-![](./images/500/lab500-5.jpg)  
+![](./images/500/lab500-5.png)  
 
 -   Go to APEX url (Replace the IP address with your own)
 
     http://132.145.213.221:8080/ords
     
-![](./images/500/lab500-6.jpg) 
+![](./images/500/lab500-6.png) 
 
 -   Sign into the APEX workspace that you created in lab 400.
 
-![](./images/500/lab500-7.jpg)
+![](./images/500/lab500-7.png)
 
 
 
