@@ -253,29 +253,29 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 -   Import data and use WORLD_MTCO2_EMISSION_AND_POPULATION_DATA for the table name.
 
-![](./images/500/lab500-43.png)
+![](./images/500/lab500-44.png)
 
 -   There are no invalid column names in this table. Click **Next** and proceed to click **Finish** to import the table.
 
-![](./images/500/lab500-44.png)
+![](./images/500/lab500-45.png)
 
 -   Locate the next schema WORLD_HYBRID_CARS_FUEL and expand the options.
 
-![](./images/500/lab500-45.png)
+![](./images/500/lab500-46.png)
 
 -   Import data and use WORLD_HYBRID_CARS_FUEL_DATA for the table name.
 
-![](./images/500/lab500-46.png)
+![](./images/500/lab500-47.png)
 
 -   There is one invalid column name in this table. Delete the **( )** and replace the **/** with underscores ( _ ) for better readability. 
 
         ACCELRATE_RATE_KM_HOUR_SECOND
         
-![](./images/500/lab500-47.png)
+![](./images/500/lab500-48.png)
 
 -   Click **Next** and proceed to click **Finish** to import the table.
 
-![](./images/500/lab500-48.png)
+![](./images/500/lab500-49.png)
 
 (Note: There are a total of 16 data sets. You may continue uploading the rest of the tables or proceed with less data in Data Marketplace. Follow the table names in the Data Marketplace Tables File for the optional data sets.)
 
@@ -287,19 +287,19 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 -   Start SQL Developer and open your DataMarketPlace connection by double clicking the connection name.
 
-![](./images/500/lab500-49.png)
+![](./images/500/lab500-50.png)
 
 -   Fill in **sys** for the username and your database password to log in.
 
-![](./images/500/lab500-50.png)
+![](./images/500/lab500-51.png)
 
 -   Clear your SQL worksheet if there are any SQL statements in it.
 
-![](./images/500/lab500-51.png)
+![](./images/500/lab500-52.png)
 
 -   Download Database SQL File and copy and paste the SQL statements into your worksheet. Run the Statements by clicking the **Run Script** button.
 
-![](./images/500/lab500-52.png)
+![](./images/500/lab500-53.png)
 
 ## Part 4. Starting Data Marketplace application
 
@@ -311,7 +311,7 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 	```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
     
-![](./images/500/lab500-53.png) 
+![](./images/500/lab500-54.png) 
 
 -   Change to Oracle user with the following command.
 
@@ -321,13 +321,13 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 	```cd ords```
     
-![](./images/500/lab500-54.png) 
+![](./images/500/lab500-55.png) 
 
 -   Start ORDS with the following command.
 
 	```java -Dconfig.dir=/home/oracle/ords -jar ords.war install simple –preserveParamFile```
     
-![](./images/500/lab500-55.png) 
+![](./images/500/lab500-56.png) 
 
 ### **STEP 2: Start Data Marketplace application**
 
@@ -335,27 +335,27 @@ Service Name:			Your database service name can be found by using SSH to log into
 
     http://132.145.213.221:8080/ords
     
-![](./images/500/lab500-56.png)
+![](./images/500/lab500-57.png)
 
 -   Sign into the APEX workspace that you created in lab 400.
 
-![](./images/500/lab500-57.png)
+![](./images/500/lab500-58.png)
 
 -   Click on the **Data Marketplace application** (ID 100)
 
-![](./images/500/lab500-58.png)
+![](./images/500/lab500-59.png)
 
 -   Click on **Run Application**.
 
-![](./images/500/lab500-59.png)
+![](./images/500/lab500-60.png)
 
 -   Use the email and password you used to create your workspace to log into Data Marketplace.
 
-![](./images/500/lab500-60.png)
+![](./images/500/lab500-61.png)
 
 -   Installation complete. You can now start exploring Data Marketplace.
 
-![](./images/500/lab500-61.png)
+![](./images/500/lab500-62.png)
 
 
 
