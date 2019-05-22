@@ -363,3 +363,5 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 
 
+## Great Work - All Done with Lab500!
+**Congrats! You are all done. You may now close this tab.**
