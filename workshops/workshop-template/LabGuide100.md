@@ -28,11 +28,11 @@ This lab walks you through the steps to get started with provisioning a Database
 
 In this section you will create SSH keys to establish secure connections to your database system
 
-### **For Windows STEP 1: Download PuTTY Key Generator**
+### **For Windows* STEP 1: Download PuTTY Key Generator**
 
 -   Download [PuTTY Key Generator](https://www.putty.org/)
 
-### **For Windows STEP 2: Generate SSH Keys using PuTTY Key Generator**
+### **For Windows* STEP 2: Generate SSH Keys using PuTTY Key Generator**
 
 -   Find puttygen.exe in the PuTTY folder on your computer, for example, C:\Program Files (x86)\PuTTY. Double-click puttygen.exe to open it.
 
@@ -52,7 +52,9 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-3.png)
 
-### **For Mac/Linux STEP 1: Getting to the Command Line Interface (Mac or Linux)**
+-   You may move on to Part 2 Create VCN and related resources.
+
+### **For Mac/Linux* STEP 1: Getting to the Command Line Interface (Mac or Linux)**
 
 -   Open your spotlight search by simultaneously clicking “CMD” and “spacebar”
 
@@ -60,7 +62,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-terminal.png)
 
-### **For Mac/Linux STEP 2: Generate a SSH key-pair**
+### **For Mac/Linux* STEP 2: Generate a SSH key-pair**
 
 -   From your CLI input “ssh-keygen”. Hit return to use the default file path. Hit return again to skip adding a passphrase.
 
