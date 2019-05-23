@@ -135,11 +135,11 @@ Available Storage Size (GB):          256
 
 ![](./images/100/lab100-12.png) 
 
--   Select DataMarketPlace for the VCN, select the only subnet option, and use **DataMP** for the hostname prefix.
+-   Scroll further down the form and select DataMarketPlace for the VCN, select the only subnet option, and use **DataMP** for the hostname prefix.
 
 ![](./images/100/lab100-13.png)
 
--   Select the latest database version, and choose “On-line Trasaction Processing for Database WorkLoad.
+-   Scroll further down the form and select the latest database version, and choose “On-line Trasaction Processing for Database WorkLoad.
 
 -   Fill out **DataMarketPlace** for database name and **DataDemo123#_** for the password.
 
