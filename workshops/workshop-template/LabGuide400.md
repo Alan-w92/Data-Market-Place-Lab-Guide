@@ -19,7 +19,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 ### **STEP 1: Start Oracle Rest Data Services**
 
--   Open windows PuTTY program or mac Terminal
+-   Open windows PuTTY program or mac Terminal.
 
 -   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the database IP address.
 
@@ -27,31 +27,31 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 ![](./images/400/lab400-1.png)
 
--   Change to root user with the following command
+-   Change to root user with the following command.
 
 	```sudo su ```
 
 ![](./images/400/lab400-2.png)
 
--   Start mailing service
+-   Start mailing service.
     
     	```Service sendmail start```
 
 ![](./images/400/lab400-3.png)
 
--   Change to Oracle user with the following command
+-   Change to Oracle user with the following command.
 
   	```sudo su – oracle```
   
 ![](./images/400/lab400-4.png)
 
--   Change to ords directory with the following command 
+-   Change to ords directory with the following command. 
 
   	```cd ords```
 	
 ![](./images/400/lab400-5.png)
 
--   Start ORDS with the following command
+-   Start ORDS with the following command.
 
  	 ```java -Dconfig.dir=/home/oracle/ords -jar ords.war install simple –preserveParamFile```
  
@@ -67,7 +67,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
   
 ![](./images/400/lab400-7.png) 
 
--   Click on **request a workspace**
+-   Click on **request a workspace**.
   
 ![](./images/400/lab400-8.png) 
 
@@ -83,11 +83,11 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 ![](./images/400/lab400-11.png)
 
--   Set your password for the workspace
+-   Set your password for the workspace.
 
 ### **STEP 3: APEX configuration**
 
--   Log into internal APEX workspace with these credentials 
+-   Log into internal APEX workspace with these credentials. 
 
 ```
 Admin Workspace:	INTERNAL
@@ -102,11 +102,11 @@ Pass:			BEstrO0ng_#33
 ![](./images/400/lab400-13.png) 
 
 
--   Change Provisioning settings to last option
+-   Change Provisioning settings to last option.
 
 ![](./images/400/lab400-14.png) 
 
--   Click on the Email tab
+-   Click on the Email tab.
   
 ![](./images/400/lab400-15.png) 
 
