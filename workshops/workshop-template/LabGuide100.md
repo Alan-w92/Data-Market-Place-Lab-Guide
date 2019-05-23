@@ -76,7 +76,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-signin1.png)
 
--   Enter your **Cloud Account Name** and click **My Services**.
+-   Enter your **Cloud Account Name** and click **Next**.
 
 ![](./images/100/lab100-signin2.png)
 
