@@ -2,21 +2,11 @@
 
 ## Introduction
 
-Welcome to the Data Marketplace workshop. This is the first of several labs that are part of the **Data Marketplace workshop**. This workshop will walk you through the process of setting up a database system, installing and using Application Express (APEX) to use the pre-made Data Marketplace application. Data Marketplace is a pre-built centralized workspace where you can catalog data sets and give quick access through an approval process.
+Welcome to the Data Marketplace workshop. This workshop will walk you through the process of setting up a database system, installing and using Application Express (APEX) to use the pre-made Data Marketplace application. Data Marketplace is a pre-built centralized workspace where you can catalog data sets and give quick access through an approval process.
 
 Data Marketplace allows Data Scientists and Analysts to get access to data that they do not own so they can make critical business decisions. As an administrator of this application, you will be able to quickly give external users access to data sets which they can use to gain business insights with tools such as APEX to generate reports or Oracle Analytics Cloud to generate visualizations on the data sets.
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
-
-## Objectives
-- Provision a Database system
-- Install Application Express (APEX) onto your Database system
-- Install Oracle Rest Data Services (ORDS) onto your Database system
-- Creation and management of workspaces and users within APEX
-- Import Data Marketplace application into APEX workspace
-
-## Required Artifacts
-- The following lab requires an Oracle Public Cloud account that will either be supplied by your instructor, or can be obtained through the following steps.
 
 ## Step 1: Acquire an Oracle Cloud Trial or Workshop Account
 - Bookmark this page for future reference.
