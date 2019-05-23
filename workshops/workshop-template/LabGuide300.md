@@ -35,7 +35,7 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 ![](./images/300/lab200-35.png)
 
--   Locate your database IP address in your cloud tenancy be navigating to your database instance
+-   Locate your database IP address in your cloud tenancy be navigating to your database instance.
 
 ![](./images/300/lab300-3.png)
 
@@ -54,13 +54,13 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 ### **STEP 3: Logging into database and changing users**
 
--   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier
+-   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier.
 
   	```ssh -i <File_Path_To_Private_SSH_Key> opc@<Database_IP_Address>```
   
 ![](./images/300/lab300-5.png)
 
--   Change to the Oracle user with the following command
+-   Change to the Oracle user with the following command.
 
  	 ```sudo su – oracle```
   
@@ -68,37 +68,37 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 ### **STEP 4: Opening ORDS Files**
 
--   Create a directory called “ords” with the following command 
+-   Create a directory called “ords” with the following command.
 
  	 ```mkdir ords```
   
 ![](./images/300/lab300-7.png)  
 
--   Move back to opc user 
+-   Move back to opc user. 
 
   	```exit```
   
 ![](./images/300/lab300-8.png) 
 
--   Copy ORDS file over to Oracle user into the ords directory
+-   Copy ORDS file over to Oracle user into the ords directory.
 
 	```sudo scp ords-19.zip ../oracle/ords```
   
 ![](./images/300/lab300-9.png) 
 
--   Move back to Oracle user 
+-   Move back to Oracle user. 
 
 	```sudo su - oracle```
   
 ![](./images/300/lab300-10.png)
 
--   Change to ords directory with the following command 
+-   Change to ords directory with the following command. 
 
 	```cd ords```
   
 ![](./images/300/lab300-11.png)
   
--   Unzip ORDS file 
+-   Unzip ORDS file. 
 
 	```unzip ords-19.zip```
   
@@ -148,7 +148,7 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 ![](./images/300/lab300-20.png) 
 
--   Click on the Security List named **DataMarketPlace**
+-   Click on the Security List named **DataMarketPlace**.
 
 ![](./images/300/lab300-21.png) 
 
@@ -170,52 +170,52 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 ### **STEP 7: ORDS Configuration Part 2**
 
--   Open your windows PuTTY Program or mac Terminal
+-   Open your windows PuTTY Program or mac Terminal.
 
--   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier
+-   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier.
 
 	```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
 
 ![](./images/300/lab300-26.png) 
 
--   Change to Oracle user with the following command
+-   Change to Oracle user with the following command.
 
 	```sudo su – oracle```
   
 ![](./images/300/lab300-27.png) 
 
--   Change to ords directory with the following command 
+-   Change to ords directory with the following command.
 
 	```cd ords```
   
 ![](./images/300/lab300-28.png)
 
--   Check your database hostname. Note it down as you will need it 
+-   Check your database hostname. Note it down as you will need it .
 
 	```hostname```
   
 ![](./images/300/lab300-29.png)  
 
--   Check your database servicename. Note it down as you will need it 
+-   Check your database servicename. Note it down as you will need it.
 
 	```lsnrctl status```
   
 ![](./images/300/lab300-30.png)
 
--   Change to params directory with the following command
+-   Change to params directory with the following command.
 
 	```cd params```
   
 ![](./images/300/lab300-31.png)
 
--   Edit ords_params.properties file
+-   Edit ords_params.properties file.
 
 
 	```vi ords_params.properties```
   
 ![](./images/300/lab300-32.png)
 
--   Press “I” to enter insert mode
+-   Press ```i``` to enter insert mode.
 
 ![](./images/300/lab300-33.png)
 
@@ -244,9 +244,9 @@ user.tablespace.temp=TEMP
 ```
 ![](./images/300/lab300-34.png)
 
--   Press the **esc** key to exit insert mode
+-   Press the ```esc``` key to exit insert mode.
 
--   Type **wq!** and press your return key to save the file
+-   Type ```:wq!``` and press your return key to save the file.
 
 
 ## Great Work - All Done with Lab300!
