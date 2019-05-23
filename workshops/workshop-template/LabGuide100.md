@@ -28,13 +28,11 @@ This lab walks you through the steps to get started with provisioning a Database
 
 In this section you will create SSH keys to establish secure connections to your database system
 
-### For Windows
-
-### **STEP 1: Download PuTTY Key Generator**
+### **For Windows STEP 1: Download PuTTY Key Generator**
 
 -   Download [PuTTY Key Generator](https://www.putty.org/)
 
-### **Generate SSH Keys using PuTTY Key Generator**
+### **For Windows STEP 2: Generate SSH Keys using PuTTY Key Generator**
 
 -   Find puttygen.exe in the PuTTY folder on your computer, for example, C:\Program Files (x86)\PuTTY. Double-click puttygen.exe to open it.
 
@@ -54,10 +52,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-3.png)
 
-
-### For Windows
-
-### **STEP 1: Getting to the Command Line Interface**
+### **For Mac/Linux STEP 1: Getting to the Command Line Interface (Mac or Linux)**
 
 -   Open your spotlight search by simultaneously clicking “CMD” and “spacebar”
 
@@ -65,21 +60,17 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-terminal.png)
 
-### **STEP 1: Generate a SSH key-pair**
+### **For Mac/Linux STEP 2: Generate a SSH key-pair**
 
--   From your CLI input “ssh-keygen”
-
--   Hit return if you want to use the default file path or specify your own file path
-
--   Hit return if you do not want to use any pass phrase or input one if you do
+-   From your CLI input “ssh-keygen”. Hit return to use the default file path. Hit return again to skip adding a passphrase.
 
 ![](./images/100/lab100-terminal2.png)
 
-  ( Note: A public key (.pub extension), and a private key (no extension), will be generated in your file path. The           default   file path is a hidden file path called .ssh . Show hidden file paths in your Finder by simultaneously clicking     “CMD +       SHIFT + . ” )
+  ( Note: A public key (.pub extension), and a private key (no extension), will be generated in your file path. The           default   file path is a hidden file path called .ssh . Show hidden file paths in your Finder by simultaneously clicking     “CMD + SHIFT + . ” )
 
 ## Part 2. Create VCN and related resources
 
-### **STEP 3: Sign in to Oracle Cloud**
+### **STEP 1: Sign in to Oracle Cloud**
 
 -   Go to [cloud.oracle.com](https://cloud.oracle.com), click **Sign In** to sign in with your Oracle Cloud account.
 
@@ -93,7 +84,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-signin3.png)
 
-### **STEP 4: Create VCN and related resources**
+### **STEP 2: Create VCN and related resources**
 
 -   Open dashboard menu, expand services list, and click on Compute.
 
@@ -118,7 +109,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 ## Part 3. Provision Database system
 
-### **STEP 5: Provision your Database instance**
+### **STEP 1: Provision your Database instance**
 
 -   Open the dashboard menu, and click on “Bare Metal, VM, and Exadata”.
 
