@@ -58,13 +58,13 @@ In this section you will create SSH keys to establish secure connections to your
 
 -   Open your spotlight search by simultaneously clicking “CMD” and “spacebar”
 
--   Search for “Terminal” to open your command line interface (CLI)
+-   Search for ```Terminal``` to open your command line interface (CLI)
 
 ![](./images/100/lab100-terminal.png)
 
 ### **For Mac/Linux* STEP 2: Generate a SSH key-pair**
 
--   From your CLI input “ssh-keygen”. Hit return to use the default file path. Hit return again to skip adding a passphrase.
+-   From your CLI input ```ssh-keygen```. Hit return to use the default file path. Hit return again to skip adding a passphrase.
 
 ![](./images/100/lab100-terminal2.png)
 
@@ -96,7 +96,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-6.png)
 
--   Name your VCN DataMarketPlace, and check the option to create related resources. 
+-   Name your VCN **DataMarketPlace**, and check the option to create related resources. 
     (Note: You will need this VCN name for provisioning a database instance)
     
 ![](./images/100/lab100-7.png)    
@@ -135,11 +135,11 @@ Available Storage Size (GB):          256
 
 ![](./images/100/lab100-12.png) 
 
--   Scroll further down the form and select DataMarketPlace for the VCN, select the only subnet option, and use **DataMP** for the hostname prefix.
+-   Scroll further down the form and select **DataMarketPlace** for the VCN, select the only subnet option, and use **DataMP** for the hostname prefix.
 
 ![](./images/100/lab100-13.png)
 
--   Scroll further down the form and select the latest database version, and choose “On-line Trasaction Processing for Database WorkLoad.
+-   Scroll further down the form and select the latest database version, and choose **On-line Trasaction Processing for Database WorkLoad**.
 
 -   Fill out **DataMarketPlace** for database name and **DataDemo123#_** for the password.
 
