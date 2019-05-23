@@ -25,17 +25,17 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 ### **STEP 1: Download Oracle Application Apex 18.2 or later (see <a href="https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html" target="\_blank">Oracle Technology Network download site</a>)**
 
--   Accept the license agreement and download the APEX zip file
+-   Accept the license agreement and download the APEX zip file.
 
 ![](./images/200/lab200-1.png)
 
--   Compress the APEX file into a zip file if it is not already in zip format
+-   Compress the APEX file into a zip file if it is not already in zip format.
 
 ![](./images/200/lab200-2.png)
 
 ### **STEP 2: Copy or move APEX into your database**
 
--   Locate your database IP address in your cloud tenancy be navigating to your database instance
+-   Locate your database IP address in your cloud tenancy be navigating to your database instance.
 
 ![](./images/200/lab200-4.png)
 
@@ -56,15 +56,15 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 ### **STEP 1: Logging into your database**
 
--   Locate your database IP address in your cloud tenancy be navigating to your database instance
+-   Locate your database IP address in your cloud tenancy be navigating to your database instance.
 
 ![](./images/200/lab200-4.png)
 
 
--   Open your windows PuTTY Program or mac Terminal
+-   Open your windows PuTTY Program or mac Terminal.
 
 
--   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier
+-   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier.
 
 	```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
   
@@ -74,45 +74,37 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 ### **STEP 1: Oracle database configuration**
 
--   Change to the oracle user with the following command
+-   Change to the oracle user with the following command.
 
 	```sudo su – oracle```
 
 ![](./images/200/lab200-6.png)
 
--   Find your ORACLE_SID and ORACLE_HOME file path with the command below and take note of it
+-   Find your ORACLE_SID and ORACLE_HOME file path with the command below and take note of it.
 
 	```cat /etc/oratab```
   
 ![](./images/200/lab200-7.png)
 
--   Add ORACLE_SID and ORACLE_HOME to your .bash_profile
+-   Add ORACLE_SID and ORACLE_HOME to your .bash_profile.
 
 	```vi ~/.bash_profile```
   
 ![](./images/200/lab200-8.png)
 
-Vi Editor Commands
-
-```
-‘i’       Insert mode
-
-‘:q!’     Quit without saving
-
-‘wq!’     Write and quit
-```
-
--   Add below environment variables at the end of the file and save it. (Replace SID and HOME file path with your own)
+-   Press ```i``` to enter insert mode. Add environment variables below to the end of the file. (Replace SID and HOME file path with your own)
 
 	```export ORACLE_SID=APEXDB```
 	
 	```export ORACLE_HOME=/u01/app/oracle/product/12.1.0.2/dbhome_1```
 	
 	```export PATH=$ORACLE_HOME/bin:$PATH```
+	
+-  Press ```esc``` to exit insert mode. Type ```:wq!``` and hit return to save your environment variables.
   
 ![](./images/200/lab200-9.png)
 
--   Run source command
+-   Run source command.
 
 	```source ~/.bash_profile```
   
@@ -123,7 +115,7 @@ Vi Editor Commands
 
 ### **STEP 1: Installing APEX onto the database**
 
--   Navigate back to the opc user with the command “exit”
+-   Navigate back to the opc user with the command ```exit```.
 
 ![](./images/200/lab200-11.png)
 
@@ -142,7 +134,7 @@ Vi Editor Commands
 
 ### **STEP 2: Changing to the Oracle user**
 
--   Change user with the following command
+-   Change user with the following command.
 
 	```sudo su – oracle```
   
@@ -158,7 +150,7 @@ Vi Editor Commands
 
 ### **STEP 4: APEX Configuration**
 
--   Change to the apex directory with the following command
+-   Change to the apex directory with the following command.
 
 	```cd apex```
   
