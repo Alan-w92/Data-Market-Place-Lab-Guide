@@ -115,7 +115,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-10.png) 
 
--   Fill out the form with following information
+-   Fill out the form with following information.
 
 ```
 Display Name:                         DataMarketPlace
