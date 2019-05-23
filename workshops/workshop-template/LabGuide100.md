@@ -40,7 +40,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 -   Set the Number of bits in a generated key to 2048 bits, if it is not already set with that value.
 
--   Click Generate.
+-   Click **Generate**.
 
 ![](./images/100/lab100-1.png)
 
@@ -86,24 +86,20 @@ In this section you will create SSH keys to establish secure connections to your
 
 ### **STEP 2: Create VCN and related resources**
 
--   Open dashboard menu, expand services list, and click on Compute.
+-   Open dashboard menu, expand networking tab by hovering over it, and click on **Virtual Cloud Networks**.
 
 ![](./images/100/lab100-4.png)
 
--   From your compute page, open dashboard menu, expand network tab, and click on Virtual Cloud Networks.
-
-![](./images/100/lab100-5.png)
-
--   Click on Create Virtual Cloud Network.
+-   Click on **Create Virtual Cloud Network**.
 
 ![](./images/100/lab100-6.png)
 
--   Give your VCN a name, and check the option to create related resources. 
+-   Name your VCN DataMarketPlace, and check the option to create related resources. 
     (Note: You will need this VCN name for provisioning a database instance)
     
 ![](./images/100/lab100-7.png)    
 
--   Scroll to the bottom and click Create Virtual Cloud Network
+-   Scroll to the bottom and click **Create Virtual Cloud Network**.
 
 ![](./images/100/lab100-8.png) 
 
@@ -111,34 +107,43 @@ In this section you will create SSH keys to establish secure connections to your
 
 ### **STEP 1: Provision your Database instance**
 
--   Open the dashboard menu, and click on “Bare Metal, VM, and Exadata”.
+-   Open the dashboard menu, and click on **Bare Metal, VM, and Exadata**.
 
 ![](./images/100/lab100-9.png) 
 
--   Click on Launch DB System
+-   Click on **Launch DB System**.
 
 ![](./images/100/lab100-10.png) 
 
--   Fill out the form with a name, and choose your database size/performance capabilities. It is recommended that you choose the same options depicted in the picture below.
+-   Fill out the form with following information
 
+```
+Display Name:                         DataMarketPlace
+Availability Domain:                  XqVg:US-ASHBURN-AD-1
+Shape Type:                           Virtual Machine
+Shape:                                VM.Standard2.2
+Total Node Count:                     1
+Oracle Database Software Edition:     Enterprise Edition Extreme Performance
+Available Storage Size (GB):          256
+```
 
 ![](./images/100/lab100-11.png) 
 
--   Choose “License Included” and browse for the public key you created in the previous lab.
+-   Choose **License Included** and browse for the public key you created in the previous lab.
 
 ![](./images/100/lab100-12.png) 
 
--   Select the VCN that you created, the default subnet for that VCN, and create a hostname prefix for your database
+-   Select the VCN that you created, the default subnet for that VCN, and create a hostname prefix for your database.
 
 ![](./images/100/lab100-13.png)
 
--   Select the latest database version, and choose “On-line Tracsaction Processing for Database WorkLoad
+-   Select the latest database version, and choose “On-line Tracsaction Processing for Database WorkLoad.
 
--   Fill out a database name and password
+-   Fill out a database name and password.
 
 ![](./images/100/lab100-14.png)
 
--   Click on Launch DB System
+-   Click on **Launch DB System**.
 
 ![](./images/100/lab100-15.png)
 
