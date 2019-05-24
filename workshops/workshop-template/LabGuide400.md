@@ -1,6 +1,6 @@
 # Application Express (APEX)
 
-![](images/400/Picture400-lab.png)  
+![](images/400/lab400-intro.png)  
 Updated: May 16, 2019
 
 ## Introduction
