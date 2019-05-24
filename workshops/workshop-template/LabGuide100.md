@@ -1,7 +1,7 @@
 Getting Started with Database Systems
 ----------------------------------------------------------------------------
 
-![](images/100/Picture100-lab.png)  
+![](images/100/lab100-intro.png)  
 Updated: May 10, 2019
 
 ## **Introduction**
