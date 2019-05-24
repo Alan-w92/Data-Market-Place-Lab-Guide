@@ -1,6 +1,6 @@
 # Oracle Rest Data Services (ORDS) Installation
 
-![](images/300/Picture300-lab.png)  
+![](images/300/lab300-intro.png)  
 Updated: May 15, 2019
 
 ## Introduction
