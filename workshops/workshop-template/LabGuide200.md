@@ -1,6 +1,6 @@
 # Application Express (APEX) Installation
 
-![](images/200/Picture200-lab.png)  
+![](images/200/lab200-intro.png)  
 Updated: May 14, 2019
 
 ## Introduction
