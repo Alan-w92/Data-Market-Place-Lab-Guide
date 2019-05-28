@@ -106,13 +106,17 @@ Pass:			BEstrO0ng_#33
 
 ![](./images/400/lab400-14.png) 
 
+-   Fill in the **Notification Email Address** with the email address you used to create your workspace.
+
+![](./images/400/lab400-18.png) 
+
 -   Click on the Email tab.
   
 ![](./images/400/lab400-15.png) 
 
--   Provide your email and IP address urls (Replace the IP address and email with your own)
+-   Replace the IP addresses in the three red boxed fields with your own IP address.
 
-![](./images/400/lab400-16.png) 
+![](./images/400/lab400-19.png) 
 
 -   Click **Apply Changes**.
 
