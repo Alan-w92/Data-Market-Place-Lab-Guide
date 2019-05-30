@@ -35,7 +35,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 -   Start mailing service.
     
-    	```Service sendmail start```
+    	```Service postfix start```
 
 ![](./images/400/lab400-3.png)
 
