@@ -59,33 +59,13 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 (Note: The first time you start ORDS, you will be prompted for database username and password. Use “sys” for the username and your database password.)
 
-### **STEP 2: APEX workspaces**
+### **STEP 2: APEX configuration**
 
 -   Navigate to APEX with the following url (Replace the IP address with your own )
 
   	```http://132.145.213.221:8080/ords```
   
 ![](./images/400/lab400-7.png) 
-
--   Click on **request a workspace**.
-  
-![](./images/400/lab400-8.png) 
-
--   Fill out your name and email. Name your workspace **DATAMARKETPLACEAPEX** and click **next**.
-
-![](./images/400/lab400-9.png) 
-
--   Click on **Submit Request**.
-  
-![](./images/400/lab400-10.png)
-
--   An email will be sent to the email you used. Navigate to the email and click **Create Workspace**.
-
-![](./images/400/lab400-11.png)
-
--   Set your password for the workspace.
-
-### **STEP 3: APEX configuration**
 
 -   Log into internal APEX workspace with these credentials. 
 
@@ -120,7 +100,34 @@ Pass:			BEstrO0ng_#33
 
 -   Click **Apply Changes**.
 
-![](./images/400/lab400-17.png) 
+![](./images/400/lab400-17.png)
+
+### **STEP 3: APEX workspaces**
+
+-   Navigate to APEX with the following url (Replace the IP address with your own )
+
+  	```http://132.145.213.221:8080/ords```
+  
+![](./images/400/lab400-7.png) 
+
+-   Click on **request a workspace**.
+  
+![](./images/400/lab400-8.png) 
+
+-   Fill out your name and email. Name your workspace **DATAMARKETPLACEAPEX** and click **next**.
+
+![](./images/400/lab400-9.png) 
+
+-   Click on **Submit Request**.
+  
+![](./images/400/lab400-10.png)
+
+-   An email will be sent to the email you used. Navigate to the email and click **Create Workspace**.
+
+![](./images/400/lab400-11.png)
+
+-   Set your password for the workspace.
+
 
 
 ## Great Work - All Done with Lab400!
