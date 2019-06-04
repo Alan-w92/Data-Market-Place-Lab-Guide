@@ -1,7 +1,7 @@
 # Application Express (APEX)
 
 ![](images/400/lab400-intro.png)  
-Updated: May 16, 2019
+Updated: June 4, 2019
 
 ## Introduction
 
@@ -35,7 +35,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 -   Start mailing service.
     
-    	```Service postfix start```
+    	Service postfix start
 
 ![](./images/400/lab400-3.png)
 
@@ -61,9 +61,9 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 ### **STEP 2: APEX configuration**
 
--   Navigate to APEX with the following url (Replace the IP address with your own )
+-   Navigate to APEX with the following url (Replace **<Your IP Address>** with your own IP address ).
 
-  	```http://132.145.213.221:8080/ords```
+  	```http://<Your IP Address>:8080/ords```
   
 ![](./images/400/lab400-7.png) 
 
