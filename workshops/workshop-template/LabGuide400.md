@@ -23,7 +23,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 -   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the database IP address.
 
-	```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
+	```ssh -i <File Path To Private SSH Key> opc@<Your Database IP Address>```
 
 ![](./images/400/lab400-1.png)
 
