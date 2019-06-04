@@ -61,7 +61,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 ### **STEP 2: APEX configuration**
 
--   Navigate to APEX with the following url (Replace **<Your IP Address>** with your own IP address ).
+-   Navigate to APEX with the following url (Replace "<Your IP Address>" with your own IP address ).
 
   	```http://<Your IP Address>:8080/ords```
   
@@ -104,7 +104,7 @@ Pass:			BEstrO0ng_#33
 
 ### **STEP 3: APEX workspaces**
 
--   Navigate to APEX with the following url (Replace **<Your IP Address>** with your own IP address ).
+-   Navigate to APEX with the following url (Replace "<Your IP Address>" with your own IP address ).
 
   	```http://<Your IP Address>:8080/ords```
   
