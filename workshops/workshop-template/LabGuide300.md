@@ -31,7 +31,7 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 -   Open the dashboard and click on **Bare Metal, VM, and Exadata**.
 
-![](./images/300/lab200-35.png)
+![](./images/300/lab300-35.png)
 
 -   Locate your database IP address in your cloud tenancy be navigating to your database instance.
 
