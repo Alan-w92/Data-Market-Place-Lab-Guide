@@ -1,7 +1,7 @@
 # Getting Started with Data Marketplace
 
 ![](images/500/lab500-intro.png)  
-Updated: May 22, 2019
+Updated: June 4, 2019
 
 ## Introduction
 
@@ -56,7 +56,7 @@ Data Marketplace Administration SQL File
 
 -   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and your IP address.
 
-    ```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
+    ```ssh -i <File Path To Private SSH Key> opc@<Your Database IP Address>```
     
 ![](./images/500/lab500-2.png)
 
@@ -279,7 +279,7 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 ![](./images/500/lab500-50.png)
 
-(Note: There are a total of 16 data sets. You may continue uploading the rest of the tables or proceed with less data in Data Marketplace. Follow the table names in the Data Marketplace Tables File for the optional data sets.)
+(Note: There are a total of 16 data sets. You may continue uploading the rest of the tables or proceed with less data in Data Marketplace. You may follow the table names in the Data Marketplace Tables File for the remaining data sets.)
 
 ## Part 3. Setting up Data Marketplace application
 
