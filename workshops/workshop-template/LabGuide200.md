@@ -47,11 +47,11 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   Use the following command to copy APEX files into your database instance after navigating to the location of where your APEX files are located (Replace the zip file name and IP address with your own)
 
-	For Windows (Use PuTTY Program)
+	For Windows use PuTTY program)
 
 	```copy apex_18.2_en.zip opc@132.145.213.221:~/```
 
-	For Macs (Use Terminal)
+	For Macs use Terminal
 
 	```scp apex_18.2_en.zip opc@132.145.213.221:~/```
   
@@ -98,7 +98,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
   
 ![](./images/200/lab200-8.png)
 
--   Press ```i``` to enter insert mode. Add environment variables below to the end of the file. (Replace SID and HOME file path with your own)
+-   Press **i** to enter insert mode. Add environment variables below to the end of the file. (Replace SID and HOME file path with your own).
 
 	```export ORACLE_SID=APEXDB```
 	
@@ -125,7 +125,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 ![](./images/200/lab200-11.png)
 
--   Use the following command to copy APEX files from your opc user over to the oracle user (Replace the zip file name with your own)
+-   Use the following command to copy APEX files from your opc user over to the oracle user (Replace the zip file name with your own).
 	
 	For Windows
 
@@ -162,7 +162,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
   
 ![](./images/200/lab200-15.png)
 
--   Start SQL*Plus and ensure you are connecting to your PDB and not to the “root” of the container database. Run the Commands below to login.
+-   Start SQL Plus and ensure you are connecting to your PDB and not to the “root” of the container database. Run the commands below to login.
 
 	```sqlplus / as sysdba```
 	
