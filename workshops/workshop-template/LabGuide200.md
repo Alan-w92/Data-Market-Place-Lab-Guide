@@ -35,6 +35,12 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 ### **STEP 2: Copy or move APEX into your database**
 
+-   Sign into [Oracle Cloud](http://cloud.oracle.com)
+
+-   Open the dashboard and click on **Bare Metal, VM, and Exadata**.
+
+![](./images/200/lab200-23.png)
+
 -   Locate your database IP address in your cloud tenancy be navigating to your database instance.
 
 ![](./images/200/lab200-4.png)
@@ -55,12 +61,6 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 ## Part 2. Using Secure Shell (SSH) to log into your database instance
 
 ### **STEP 1: Logging into your database**
-
--   Sign into [Oracle Cloud](http://cloud.oracle.com)
-
--   Open the dashboard and click on **Bare Metal, VM, and Exadata**.
-
-![](./images/200/lab200-23.png)
 
 -   Locate your database IP address in your cloud tenancy be navigating to your database instance.
 
