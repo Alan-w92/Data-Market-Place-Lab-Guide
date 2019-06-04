@@ -70,9 +70,9 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 -   Open your windows PuTTY Program or mac Terminal.
 
 
--   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier.
+-   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier. Replace the content and the brackets with your own file path and Database IP Address.
 
-	```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
+	```ssh -i <File Path To Private SSH Key> opc@<Your Database IP Address>```
   
 ![](./images/200/lab200-5.png)
 
@@ -86,7 +86,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 ![](./images/200/lab200-6.png)
 
--   Find your ORACLE_SID and ORACLE_HOME file path with the command below and take note of it.
+-   Find your ORACLE_SID and ORACLE_HOME file path with the command below and take note of it. You will need need these later on.
 
 	```cat /etc/oratab```
   
