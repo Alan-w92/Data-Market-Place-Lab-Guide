@@ -42,11 +42,11 @@ This lab walks you through the steps to set up and configure Data Marketplace. D
 Data Marketplace SQL File
 Data Marketplace Administration SQL File
 ```
--   Open Data Marketplace SQL File in any text editor.
+-   Open Data Marketplace SQL File and Data Marketplace Administration SQL File in any text editor.
 
 -   Search and replace the following IP address with your own IP address and save it.
 
-    132.145.213.221 (Note: Use Ctrl + F or CMD + F to bring up the search option in your editor)
+    150.136.245.101 (Note: Use Ctrl + F or CMD + F to bring up the search option in your editor)
     
 ![](./images/500/lab500-1.png)
 
@@ -80,7 +80,7 @@ Data Marketplace Administration SQL File
 
 -   Go to APEX url (Replace the IP address with your own)
 
-    http://132.145.213.221:8080/ords
+    http://<Your Database IP Address>:8080/ords
     
 ![](./images/500/lab500-6.png) 
 
@@ -311,7 +311,7 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 -   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and your database IP address.
 
-	```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
+	```ssh -i <File Path To Private SSH Key> opc@<Your Database IP Address>```
     
 ![](./images/500/lab500-55.png) 
 
@@ -337,7 +337,7 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 -   Go to the APEX url (Replace the IP address with your own)
 
-    http://132.145.213.221:8080/ords
+    http://<Your Database IP Address>:8080/ords
     
 ![](./images/500/lab500-59.png)
 
