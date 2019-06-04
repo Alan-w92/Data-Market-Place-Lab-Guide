@@ -104,9 +104,9 @@ Pass:			BEstrO0ng_#33
 
 ### **STEP 3: APEX workspaces**
 
--   Navigate to APEX with the following url (Replace the IP address with your own )
+-   Navigate to APEX with the following url (Replace **<Your IP Address>** with your own IP address ).
 
-  	```http://132.145.213.221:8080/ords```
+  	```http://<Your IP Address>:8080/ords```
   
 ![](./images/400/lab400-7.png) 
 
