@@ -17,7 +17,7 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 # Oracle Rest Data Services Installation
 
-### **STEP 1: Download Oracle Rest Data Services 18.2 or later (see [Oracle Technology Network download site] (https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html)**
+### **STEP 1: Download Oracle Rest Data Services 18.2 or later (see [Oracle Technology Network download site](https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html))**
 
 -   Accept the license agreement and download the ORDS file
 
@@ -41,11 +41,11 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 	
 	For Windows use PuTTY program
 
-	```copy ords-19.zip opc@132.145.213.221:~/```
+	```copy ords-19.zip opc@<Your Database IP Address>:~/```
 
 	For Macs use Terminal
 
-	```scp ords-19.zip opc@132.145.213.221:~/```
+	```scp ords-19.zip opc@<Your Database IP Address>:~/```
   
   
 ![](./images/300/lab300-4.png)
@@ -159,7 +159,7 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 -   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier.
 
-	```ssh -i File_Path_To_Private_SSH_Key opc@Database_IP_Address```
+	```ssh -i <File Path To Private SSH Key> opc@<Database_IP_Address>```
 
 ![](./images/300/lab300-26.png) 
 
