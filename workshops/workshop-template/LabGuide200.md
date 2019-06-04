@@ -49,11 +49,11 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 	For Windows use PuTTY program)
 
-	```copy apex_18.2_en.zip opc@132.145.213.221:~/```
+	```copy apex_18.2_en.zip opc@<Your Database IP Address>:~/```
 
 	For Macs use Terminal
 
-	```scp apex_18.2_en.zip opc@132.145.213.221:~/```
+	```scp apex_18.2_en.zip opc@<Your Database IP Address>:~/```
   
 ![](./images/200/lab200-3.png)
   
