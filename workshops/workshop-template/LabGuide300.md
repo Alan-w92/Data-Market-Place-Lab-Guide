@@ -1,7 +1,7 @@
 # Oracle Rest Data Services (ORDS) Installation
 
 ![](images/300/lab300-intro.png)  
-Updated: May 15, 2019
+Updated: June 4, 2019
 
 ## Introduction
 
@@ -17,7 +17,7 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 # Oracle Rest Data Services Installation
 
-### **STEP 1: Download Oracle Rest Data Services 18.2 or later (see [Oracle Technology Network download site (https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html)**
+### **STEP 1: Download Oracle Rest Data Services 18.2 or later (see [Oracle Technology Network download site] (https://www.oracle.com/technetwork/developer-tools/rest-data-services/downloads/index.html)**
 
 -   Accept the license agreement and download the ORDS file
 
@@ -29,8 +29,6 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 ### **STEP 2: Copy ORDS file into database instance**
 
--   Sign into [Oracle Cloud](http://cloud.oracle.com)
-
 -   Open the dashboard and click on **Bare Metal, VM, and Exadata**.
 
 ![](./images/300/lab200-35.png)
@@ -41,11 +39,11 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 -   Use the following command to copy ORDS files into your database instance after navigating to the location of where your ORDS files are located (Replace the zip file name and IP address with your own)
 	
-	For Windows (Use PuTTY Program)
+	For Windows use PuTTY program
 
 	```copy ords-19.zip opc@132.145.213.221:~/```
 
-	For Macs (Use Terminal)
+	For Macs use Terminal
 
 	```scp ords-19.zip opc@132.145.213.221:~/```
   
@@ -111,34 +109,21 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 ![](./images/300/lab300-13.png) 
 
 -   Check access rule in iptables and open port for 80 and 8080 with the following commands.
-
+	
 	```
 	iptables -I INPUT 8 -p tcp -m state --state NEW -m tcp --dport 8080 -j ACCEPT -m comment --comment "Required for APEX."
 	service iptables save
 	iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
-	service iptables save
+	service iptables save	
+  	```
 	
-  
 ![](./images/300/lab300-14.png) 
     
 ### **STEP 6: Add ingress rule for your VCN to allow from public internet to 8080 and 1521**
 
--   Go to [cloud.oracle.com](https://cloud.oracle.com), click **Sign In** to sign in with your Oracle Cloud account.
-
-![](./images/300/lab300-15.png) 
-
--   Enter your **Cloud Account Name** and click **My Services**.
-
-![](./images/300/lab300-16.png) 
-
--   Enter your Oracle Cloud **username** and **password**, and click **Sign In**.
-
-![](./images/300/lab300-17.png) 
-
 -   From your homepage, open the side menu, expand Networking tab, and click on Virtual Cloud Networks.
 
 ![](./images/300/lab300-18.png) 
-
 
 -   Click on the VCN named **DataMarketPlace**
 
