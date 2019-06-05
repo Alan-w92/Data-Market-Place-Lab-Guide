@@ -41,11 +41,11 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 	
 	-   For Windows use PuTTY program
 
-	```copy ords-19.zip opc@<Your Database IP Address>:~/```
+	    copy ords-19.zip opc@<Your Database IP Address>:~/
 
 	-   For Macs use Terminal
 
-	```scp ords-19.zip opc@<Your Database IP Address>:~/```
+	    scp ords-19.zip opc@<Your Database IP Address>:~/
   
   
 ![](./images/300/lab300-4.png)
