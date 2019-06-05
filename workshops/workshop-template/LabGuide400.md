@@ -5,7 +5,7 @@ Updated: June 4, 2019
 
 ## Introduction
 
-This lab walks you through the steps to use and manage Application Express (APEX). APEX is a low-code development platform that enables you to build stunning, scalable, secure apps, with world-class features, that can be deployed anywhere.
+This lab walks you through the steps to use and manage Application Express (APEX). APEX is a low-code development platform that enables you to build stunning, scalable, secure apps, with world-class features, that can be deployed anywhere. By the end of this lab, your admin will be able to set up their own workspaces and use Application Express.
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
