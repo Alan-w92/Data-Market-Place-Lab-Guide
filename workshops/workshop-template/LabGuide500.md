@@ -5,7 +5,7 @@ Updated: June 4, 2019
 
 ## Introduction
 
-This lab walks you through the steps to set up and configure Data Marketplace. Data Marketplace is a pre-built centralized workspace where you can catalog data sets and give quick access through an approval process. 
+This lab walks your company through the steps to set up and configure Data Marketplace for use. Data Marketplace is a pre-built centralized workspace where your admins can catalog data sets and give quick access to data scientists through an approval process. By the end of this lab, you will have access to the data sets through Data Marketplace.
 
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
