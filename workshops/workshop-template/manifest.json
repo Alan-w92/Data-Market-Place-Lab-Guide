@@ -8,40 +8,52 @@
             {
                 "number": "0",
                 "filename": "Intro.md",
-                "title": "Workshop Introduction",
-                "description": "Step-by-step workshop instructions"
+                "title": "Data Marketplace Workshop Introduction",
+                "description": "Data Marketplace workshop prerequisites to start the lab."
 
             },
             {
                 "number": "100",
                 "filename": "LabGuide100.md",
-                "title": "Lab 100: Agile Project Management, plus an even longer section of text that will almost assuredly wrap unto the proximate lineage.",
-                "description": "Use Developer Cloud Service to create issues, tasks, and sprints, plus an even longer section of text that will almost assuredly wrap unto the proximate lineage, plus an even longer section of text that will almost assuredly wrap unto the proximate lineage."
+                "title": "Lab 100:  Getting Started with Database Systems",
+                "description": "Learn how to provision a Database system and its related resources."
 
             },
             {
                 "number": "200",
                 "filename": "LabGuide200.md",
-                "title": "Lab 200:  Title of Lab 200",
-                "description": "Short description of lab 200"
+                "title": "Lab 200:  Application Express (APEX) Installation",
+                "description": "Learn how to install Application Express onto your database instance."
 
             },
             {
                 "number": "300",
                 "filename": "LabGuide300.md",
-                "title": "Lab 300:  Title of Lab 300",
-                "description": "Short description of lab 300"
+                "title": "Lab 300:  Oracle Rest Data Services (ORDS) Installation",
+                "description": "Learn how to install Oracle Rest Data Services onto the database instance."
 
             },
             {
                 "number": "400",
                 "filename": "LabGuide400.md",
-                "title": "Lab 400: Title of Lab 400",
-                "description": "Short description of lab 400"
+                "title": "Lab 400: Application Express (APEX)",
+                "description": "Learn how to use Application Express."
+
+            },
+            {
+                "number": "500",
+                "filename": "LabGuide500.md",
+                "title": "Lab 500: Data Marketplace Import",
+                "description": "Learn how to import Data Marketplace into Application Express."
+
+            },
+            {
+                "number": "600",
+                "filename": "LabGuide600.md",
+                "title": "Lab 600: Data Marketplace Application",
+                "description": "Learn how to use Data Marketplace."
 
             }
-
-
         ]
     }
 }
