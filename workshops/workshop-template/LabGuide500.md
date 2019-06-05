@@ -30,10 +30,10 @@ This lab walks you through the steps to set up and configure Data Marketplace. D
 
 -   Download these two files.
 
-```
-Data_Marketplace_Files_19.1.zip
-Data_Marketplace_Data_Set.zip
-```
+[Data Marketplace Files 19.1.zip](./Files/Data_Marketplace_Files_19.1.zip)
+
+[Data Marketplace Data Set.zip](./Files/Data_Marketplace_Data_Set.zip)
+
 -   Open Data Marketplace SQL File and Data Marketplace Administration SQL File in any text editor.
 
 -   Search and replace the following IP address with your own IP address and save it.
