@@ -1,0 +1,35 @@
+alter session set container=pdb1;
+
+create user WORLD_STOCK_MARKET_AND_INDUSTRY_PROD identified by DataSet123#_;
+create user WORLD_MTCO2_EMISSION_AND_POPULATION identified by DataSet123#_;
+create user WORLD_HYBRID_CARS_FUEL identified by DataSet123#_;
+create user WORLD_ECO_OUTLOOK_METRICS_IMF_DEFINITIONS identified by DataSet123#_;
+create user US_SFO_PASSENGERS_TRAFFIC identified by DataSet123#_;
+create user US_POP_STATES_HISTORY identified by DataSet123#_;
+create user US_POP_COUNTIES_HISTORY identified by DataSet123#_;
+create user US_OIL_IMPORTS identified by DataSet123#_;
+create user US_INVENTORY_ROTATION identified by DataSet123#_;
+create user US_GOLF_MASTERS identified by DataSet123#_;
+create user US_CRIME_RATE_PER_CITY identified by DataSet123#_;
+create user US_CLOTHES_EXPENDITURES identified by DataSet123#_;
+create user UCS_SATELLITES identified by DataSet123#_;
+create user SAMPLE_PHARMA identified by DataSet123#_;
+create user MANUFACTURING identified by DataSet123#_;
+create user DONATION_DETAILS identified by DataSet123#_;
+
+ALTER USER WORLD_STOCK_MARKET_AND_INDUSTRY_PROD quota unlimited on USERS;
+ALTER USER WORLD_MTCO2_EMISSION_AND_POPULATION quota unlimited on USERS;
+ALTER USER WORLD_HYBRID_CARS_FUEL quota unlimited on USERS;
+ALTER USER WORLD_ECO_OUTLOOK_METRICS_IMF_DEFINITIONS quota unlimited on USERS;
+ALTER USER US_SFO_PASSENGERS_TRAFFIC quota unlimited on USERS;
+ALTER USER US_POP_STATES_HISTORY quota unlimited on USERS;
+ALTER USER US_POP_COUNTIES_HISTORY quota unlimited on USERS;
+ALTER USER US_OIL_IMPORTS quota unlimited on USERS;
+ALTER USER US_INVENTORY_ROTATION quota unlimited on USERS;
+ALTER USER US_GOLF_MASTERS quota unlimited on USERS;
+ALTER USER US_CRIME_RATE_PER_CITY quota unlimited on USERS;
+ALTER USER US_CLOTHES_EXPENDITURES quota unlimited on USERS;
+ALTER USER UCS_SATELLITES quota unlimited on USERS;
+ALTER USER SAMPLE_PHARMA quota unlimited on USERS;
+ALTER USER MANUFACTURING quota unlimited on USERS;
+ALTER USER DONATION_DETAILS quota unlimited on USERS;
