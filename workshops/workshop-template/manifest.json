@@ -1,7 +1,7 @@
 {
     "workshop": {
-        "title": "Workshop Title",
-        "description": "Description of this workshop.",
+        "title": "Data Marketplace",
+        "description": "This workshop will walk you through the process of setting up a Database, installing APEX and ORDS to facilitate the import of Data Marketplace into APEX.",
         "theme": "default",
         "interactive":"https://launch.oracle.com/?",
         "labs": [
