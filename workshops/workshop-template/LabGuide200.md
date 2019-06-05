@@ -166,11 +166,12 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   Start SQL Plus and ensure you are connecting to your PDB and not to the “root” of the container database. Run the commands below to login.
 
-	```sqlplus / as sysdba```
+	sqlplus / as sysdba
 	
-	```alter session set container=pdb1;```
+	alter session set container=pdb1;
 	
-	```@apexins sysaux sysaux temp /i/```
+	@apexins sysaux sysaux temp /i/
+	
   
 ![](./images/200/lab200-16.png)
 
