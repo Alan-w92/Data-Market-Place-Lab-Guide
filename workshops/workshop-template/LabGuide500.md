@@ -20,9 +20,9 @@ This lab walks you through the steps to set up and configure Data Marketplace. D
 
 -   Oracle SQL Developer 18.3 or later (see <a href="http://www.oracle.com/technetwork/developer-tools/sql-developer/downloads/index.html" target="\_blank">Oracle Technology Network download site</a>)
 
--   [Data Marketplace Files 19.1.zip](./Files/Data Marketplace Files 19.1.zip)
+-   [Data Marketplace Files 19.1.zip](./Files/Data_Marketplace_Files_19.1.zip)
 
--   [Data Marketplace Data Set.zip](./Files/Data Marketplace Data Set.zip)
+-   [Data Marketplace Data Set.zip](./Files/Data_Marketplace_Data_Set.zip)
 
 ## Part 1. Importing Data Marketplace application
 
