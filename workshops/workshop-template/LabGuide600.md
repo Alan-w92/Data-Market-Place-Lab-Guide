@@ -11,6 +11,7 @@ This lab walks you through the steps in utilizing Data Marketplace. Data Marketp
 
 ## Objectives
 -   Learn how to register for a Data Marketplace workspace
+-   Learn how to approve a Data Marketplace workspace request
 -   Learn how to request data sets
 -   Learn how to approve data set requests
 -   Learn how to access requested data sets through Oracle Analytics Cloud
