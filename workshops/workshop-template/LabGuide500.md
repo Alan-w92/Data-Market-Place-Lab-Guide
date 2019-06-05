@@ -34,7 +34,7 @@ This lab walks your company through the steps to set up and configure Data Marke
 
 [Data Marketplace Data Set.zip](./Files/Data_Marketplace_Data_Set.zip)
 
--   Open Data Marketplace SQL File and Data Marketplace Administration SQL File in any text editor.
+-   Unzip Data Marketplace Files 19.1 and open Data Marketplace SQL File and Data Marketplace Administration SQL File in any text editor.
 
 -   Search and replace the following IP address with your own IP address and save it.
 
@@ -189,7 +189,7 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 ### **STEP 3: Load data sets into database**
 
--   Download Database Schema Creation File, Data Marketplace Tables File, and Data Marketplace Data Set File. Unzip the Data Marketplace Data Set File for all the excel data files.
+-   Open Database Schema Creation File, Data Marketplace Tables File, and Data Marketplace Data Set File. Unzip the Data Marketplace Data Set File for all the excel data files.
 
 -   Copy the SQL statements from Database Schema Creation File and paste them into SQL Developer worksheet. Run the SQL statements to create a schema for each data set in your pluggable database (pdb1)
 
