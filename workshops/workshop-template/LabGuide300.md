@@ -5,7 +5,7 @@ Updated: June 4, 2019
 
 ## Introduction
 
-This lab walks you through the steps to install Oracle Rest Data Services (ORDS) onto the database instance that you provisioned in the previous lab. ORDS is a mid-tier Java application that makes it easy to develop modern REST interfaces for relational data in the Oracle Database and returns any results formatted using JSON.
+This lab walks you through the steps to install Oracle Rest Data Services (ORDS) onto the database instance that you provisioned in the previous lab. ORDS is a mid-tier Java application that makes it easy to develop modern REST interfaces for relational data in the Oracle Database and returns any results formatted using JSON. By the end of lab, you will have all the compenents to start Application Express.
 
 **_To log issues_**, click here to go to the [github oracle](https://github.com/oracle/learning-library/issues/new) repository issue submission form.
 
