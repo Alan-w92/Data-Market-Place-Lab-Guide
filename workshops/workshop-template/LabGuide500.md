@@ -70,9 +70,9 @@ This lab walks your company through the steps to set up and configure Data Marke
     
 ![](./images/500/lab500-5.png)  
 
--   Go to APEX url (Replace the IP address with your own)
+-   Go to APEX url (Replace the brackets and content with your own Database IP address).
 
-    http://150.136.245.101:8080/ords
+    ```http://<Your Database IP Address>:8080/ords```
     
 ![](./images/500/lab500-6.png) 
 
@@ -327,9 +327,9 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 ### **STEP 2: Start Data Marketplace application**
 
--   Go to the APEX url (Replace the IP address with your own)
+-   Go to the APEX url (Replace the brackets and content with your own Database IP address)
 
-    http://150.136.245.101:8080/ords
+   ``` http://<Your Database IP Address>:8080/ords```
     
 ![](./images/500/lab500-59.png)
 
