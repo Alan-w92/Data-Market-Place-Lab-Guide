@@ -131,11 +131,11 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	
 	-   For Windows
 
-	```sudo copy apex_18.2_en.zip ../oracle```
+	    sudo copy apex_18.2_en.zip ../oracle
 
 	-   For Macs
 
-	```sudo scp apex_18.2_en.zip ../oracle```
+	    sudo scp apex_18.2_en.zip ../oracle
   
 
 ![](./images/200/lab200-12.png)
