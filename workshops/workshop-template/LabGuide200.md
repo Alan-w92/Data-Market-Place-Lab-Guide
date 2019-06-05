@@ -47,11 +47,11 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   Use the following command to copy APEX files into your database instance after navigating to the location of where your APEX files are located. Replace the zip file name and IP address with your own.
 
-	For Windows use PuTTY program
+	-   For Windows use PuTTY program
 
 	```copy apex_18.2_en.zip opc@<Your Database IP Address>:~/```
 
-	For Macs use Terminal
+	-   For Macs use Terminal
 
 	```scp apex_18.2_en.zip opc@<Your Database IP Address>:~/```
   
@@ -127,11 +127,11 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   Use the following command to copy APEX files from your opc user over to the oracle user. Replace the zip file name with your own.
 	
-	For Windows
+	-   For Windows
 
 	```sudo copy apex_18.2_en.zip ../oracle```
 
-	For Macs
+	-   For Macs
 
 	```sudo scp apex_18.2_en.zip ../oracle```
   
