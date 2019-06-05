@@ -39,11 +39,11 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 -   Use the following command to copy ORDS files into your database instance after navigating to the location of where your ORDS files are located. Replace the zip file name and IP address with your own.
 	
-	For Windows use PuTTY program
+	-   For Windows use PuTTY program
 
 	```copy ords-19.zip opc@<Your Database IP Address>:~/```
 
-	For Macs use Terminal
+	-   For Macs use Terminal
 
 	```scp ords-19.zip opc@<Your Database IP Address>:~/```
   
