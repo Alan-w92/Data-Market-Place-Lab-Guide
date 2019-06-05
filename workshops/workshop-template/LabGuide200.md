@@ -45,7 +45,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 ![](./images/200/lab200-4.png)
 
--   Use the following command to copy APEX files into your database instance after navigating to the location of where your APEX files are located (Replace the zip file name and IP address with your own)
+-   Use the following command to copy APEX files into your database instance after navigating to the location of where your APEX files are located. Replace the zip file name and IP address with your own.
 
 	For Windows use PuTTY program
 
@@ -98,7 +98,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
   
 ![](./images/200/lab200-8.png)
 
--   Press **i** to enter insert mode. Add environment variables below to the end of the file. (Replace SID and HOME file path with your own).
+-   Press **i** to enter insert mode. Add environment variables below to the end of the file. Replace SID and HOME file path with your own.
 
 	```export ORACLE_SID=APEXDB```
 	
@@ -125,7 +125,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 ![](./images/200/lab200-11.png)
 
--   Use the following command to copy APEX files from your opc user over to the oracle user (Replace the zip file name with your own).
+-   Use the following command to copy APEX files from your opc user over to the oracle user. Replace the zip file name with your own.
 	
 	For Windows
 
