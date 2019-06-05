@@ -31,8 +31,8 @@ This lab walks you through the steps to set up and configure Data Marketplace. D
 -   Download these two files.
 
 ```
-Data Marketplace Files 19.1.zip
-ta Marketplace Data Set.zip
+Data_Marketplace_Files_19.1.zip
+Data_Marketplace_Data_Set.zip
 ```
 -   Open Data Marketplace SQL File and Data Marketplace Administration SQL File in any text editor.
 
@@ -72,7 +72,7 @@ ta Marketplace Data Set.zip
 
 -   Go to APEX url (Replace the IP address with your own)
 
-    http://<Your Database IP Address>:8080/ords
+    http://150.136.245.101:8080/ords
     
 ![](./images/500/lab500-6.png) 
 
@@ -329,7 +329,7 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 -   Go to the APEX url (Replace the IP address with your own)
 
-    http://<Your Database IP Address>:8080/ords
+    http://150.136.245.101:8080/ords
     
 ![](./images/500/lab500-59.png)
 
