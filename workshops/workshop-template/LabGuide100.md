@@ -48,7 +48,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-2.png)
 
--   The generated key appears under Public key. Copy the the public key and save it in any text editor. Save the private key by clicking **Save Private Key**. Save the Public and Private keys as they will be used to provision your database instance. 
+-   The generated key appears under Public key. Copy the the public key and save it in any text editor. Save the private key by clicking **Save Private Key**. Keep note of where your Public and Private keys are located as they will be used to provision your database instance. 
 
 ![](./images/100/putty4.png)
 
@@ -64,7 +64,7 @@ In this section you will create SSH keys to establish secure connections to your
 
 ### **STEP 2: Generate a SSH key-pair (For Mac/Linux)**
 
--   From your CLI input ```ssh-keygen```. Hit return to use the default file path. Hit return again to skip adding a passphrase.
+-   From your CLI input ```ssh-keygen```. Hit return to use the default file path. Hit return again to skip adding a passphrase. Keep note of the file path location as the SSH keys will be used to provision your database.
 
 ![](./images/100/lab100-terminal2.png)
 
