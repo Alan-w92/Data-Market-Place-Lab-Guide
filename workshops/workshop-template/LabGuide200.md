@@ -62,7 +62,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	    
 	    ![](./images/200/putty3.png)
 	    
-	    Use the command prompt to execute the following command.
+	    Use the command prompt to execute the following command. Remember to use your own IP Address.
 
 	    scp apex_18.2_en.zip opc@150.136.245.101:~/
 	    
