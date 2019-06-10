@@ -55,20 +55,25 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	    
 	    Open PuTTY and navigate to Auth page by scrolling down the menu. Browse for your Private Key.
 	    
+	    ![](./images/200/putty1.png)
+	    ![](./images/200/putty2.png)
+	    
 	    Navigate back to session page and fill in your IP Address and click Open.
+	    
+	    ![](./images/200/putty3.png)
 	    
 	    Use the command prompt to execute the following command.
 
 	    scp apex_18.2_en.zip opc@150.136.245.101:~/
 	    
-	    Click Yes on the connection prompt.
+	    Click Yes when prompted to create your connection.
 	
 	-   For Macs use Terminal
 
 	    scp apex_18.2_en.zip opc@150.136.245.101:~/
 	
   
-![](./images/200/lab200-3.png)
+	    ![](./images/200/lab200-3.png)
   
 
 ## Part 2. Using Secure Shell (SSH) to log into your database instance
