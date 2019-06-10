@@ -62,6 +62,8 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	    
 	    ![](./images/200/putty3.png)
 	    
+	    Login in as **opc** with your database password.
+	    
 	    Use the command prompt to execute the following command. Remember to use your own IP Address.
 
 	    scp apex_18.2_en.zip opc@150.136.245.101:~/
@@ -72,9 +74,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 	    scp apex_18.2_en.zip opc@150.136.245.101:~/
 	
-  
 	    ![](./images/200/lab200-3.png)
-  
 
 ## Part 2. Using Secure Shell (SSH) to log into your database instance
 
@@ -85,10 +85,10 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 ![](./images/200/lab200-4.png)
 
 
--   Open your windows PuTTY Program or mac Terminal.
+-   Use windows PuTTY Program or mac Terminal to SSH into your instance.
 
 
--   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier. Replace the content and the brackets with your own file path and Database IP Address.
+-   SSH into your database instance with the following syntax for macs, use the file path of where your private SSH key resides and the IP address you found earlier. Replace the content and the brackets with your own file path and Database IP Address.
 
 	```ssh -i <File Path To Private SSH Key> opc@<Your Database IP Address>```
   
