@@ -19,9 +19,9 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 ### **STEP 1: Start Oracle Rest Data Services**
 
--   Open windows PuTTY program or mac Terminal.
+-   Use windows PuTTY Program or mac Terminal to SSH into your instance.
 
--   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the database IP address.
+-   SSH into your database instance with the following syntax for macs, use the file path of where your private SSH key resides and the database IP address.
 
 	```ssh -i <File Path To Private SSH Key> opc@<Your Database IP Address>```
 
