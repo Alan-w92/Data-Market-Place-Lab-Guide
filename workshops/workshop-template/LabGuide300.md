@@ -52,7 +52,9 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 ### **STEP 3: Logging into database and changing users**
 
--   SSH into your database instance with the following syntax, use the file path of where your private SSH key resides and the IP address you found earlier.
+-   Use windows PuTTY Program or mac Terminal to SSH into your instance.
+
+-   SSH into your database instance with the following syntax for macs, use the file path of where your private SSH key resides and the IP address you found earlier.
 
   	```ssh -i <File_Path_To_Private_SSH_Key> opc@<Database_IP_Address>```
   
