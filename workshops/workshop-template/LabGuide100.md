@@ -48,9 +48,9 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-2.png)
 
--   The generated key appears under Public key. Save the Public and Private keys as they will be used to provision your database instance.
+-   The generated key appears under Public key. Copy the the public key and save it in any text editor. Save the private key by clicking **Save Private Key**. Save the Public and Private keys as they will be used to provision your database instance. 
 
-![](./images/100/lab100-3.png)
+![](./images/100/putty4.png)
 
 -   You may move on to Part 2 Create VCN and related resources.
 
