@@ -17,6 +17,8 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 ## Required Artifacts
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 
+-   [PuTTY Program](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+
 -   Oracle Application Apex 18.2 or later (see <a href="https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html" target="\_blank">Oracle Technology Network download site</a>)
 
 # Application Express Installation
@@ -47,11 +49,20 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   Use the following command to copy APEX files into your database instance after navigating to the location of where your APEX files are located. Replace the zip file name and IP address with your own.
 
-	-   For Windows use Command Prompt
+	-   For Windows use Command Prompt and PuTTY Program
+	
+	    Download [PuTTY Program](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+	    
+	    Open PuTTY and navigate to Auth page by scrolling down the menu. Browse for your Private Key.
+	    
+	    Navigate back to session page and fill in your IP Address and click Open.
+	    
+	    Use the command prompt to execute the following command.
 
 	    scp apex_18.2_en.zip opc@150.136.245.101:~/
+	    
+	    Click Yes on the connection prompt.
 	
-
 	-   For Macs use Terminal
 
 	    scp apex_18.2_en.zip opc@150.136.245.101:~/
