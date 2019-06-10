@@ -47,14 +47,14 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   Use the following command to copy APEX files into your database instance after navigating to the location of where your APEX files are located. Replace the zip file name and IP address with your own.
 
-	-   For Windows use PuTTY program
+	-   For Windows use Command Prompt
 
-	    copy apex_18.2_en.zip opc@<Your Database IP Address>:~/
+	    scp apex_18.2_en.zip opc@150.136.245.101:~/
 	
 
 	-   For Macs use Terminal
 
-	    scp apex_18.2_en.zip opc@<Your Database IP Address>:~/
+	    scp apex_18.2_en.zip opc@150.136.245.101:~/
 	
   
 ![](./images/200/lab200-3.png)
