@@ -149,4 +149,4 @@ This lab walks the data scientists and Admins through the steps in utilizing Dat
 
 
 
-Congratulations. You have completed learning how to install and use Data Marketplace!
+## Congratulations. You have completed learning how to install and use Data Marketplace!
