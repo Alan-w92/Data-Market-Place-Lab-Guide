@@ -17,7 +17,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 ## Required Artifacts
 -   The following lab requires an Oracle Public Cloud account. You may use your own cloud account, a cloud account that you obtained through a trial, or a training account whose details were given to you by an Oracle instructor.
 
--   [PuTTY Program](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+-   [PuTTY Program](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) for windows systems.
 
 -   Oracle Application Apex 18.2 or later (see <a href="https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html" target="\_blank">Oracle Technology Network download site</a>)
 
