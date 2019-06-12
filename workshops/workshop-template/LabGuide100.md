@@ -2,7 +2,7 @@ Getting Started with Database Systems
 ----------------------------------------------------------------------------
 
 ![](images/100/lab100-intro.png)  
-Updated: June 4, 2019
+Updated: June 12, 2019
 
 ## **Introduction**
 
@@ -104,6 +104,10 @@ In this section you will create SSH keys to establish secure connections to your
 -   Scroll to the bottom and click **Create Virtual Cloud Network**.
 
 ![](./images/100/lab100-8.png) 
+
+-   Click **Close**.
+
+![](./images/100/lab100-16.png) 
 
 ## Part 3. Provision Database system
 
