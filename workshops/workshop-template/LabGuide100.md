@@ -141,7 +141,7 @@ Available Storage Size (GB):          256
 
 -   Scroll further down the form and select **DataMarketPlace** for the VCN, select the subnet option with ASHBURN AD1, and use **DataMP** for the hostname prefix.
 
-
+![](./images/100/lab100-13.png)
 
 -   Scroll further down the form and select the latest database version, and choose **On-line Trasaction Processing** for Database WorkLoad.
 
