@@ -127,7 +127,7 @@ In this section you will create SSH keys to establish secure connections to your
 Display Name:                         DataMP
 Availability Domain:                  US-ASHBURN-AD-1
 Shape Type:                           Virtual Machine
-Shape:                                VM.Standard2.2
+Shape:                                VM.Standard2.1 or VM.Standard2.2
 Total Node Count:                     1
 Oracle Database Software Edition:     Enterprise Edition Extreme Performance
 Available Storage Size (GB):          256
