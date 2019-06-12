@@ -121,11 +121,11 @@ In this section you will create SSH keys to establish secure connections to your
 
 ![](./images/100/lab100-10.png) 
 
--   Fill out the form with following information.
+-   Fill out the form with following information. Availability Domain will have unique identifiers. Choose the option with US-ASHBURN-AD-1.
 
 ```
-Display Name:                         DataMarketPlace
-Availability Domain:                  XqVg:US-ASHBURN-AD-1
+Display Name:                         DataMP
+Availability Domain:                  US-ASHBURN-AD-1
 Shape Type:                           Virtual Machine
 Shape:                                VM.Standard2.2
 Total Node Count:                     1
