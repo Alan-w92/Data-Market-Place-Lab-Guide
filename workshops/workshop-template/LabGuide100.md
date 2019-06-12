@@ -133,7 +133,7 @@ Oracle Database Software Edition:     Enterprise Edition Extreme Performance
 Available Storage Size (GB):          256
 ```
 
-
+![](./images/100/lab100-11.png) 
 
 -   Choose **License Included** and browse for the public key you created in the previous lab.
 
@@ -147,7 +147,7 @@ Available Storage Size (GB):          256
 
 -   Fill out **DataMarketPlace** for database name and **DataDemo123#_** for the password.
 
-
+![](./images/100/lab100-14.png) 
 
 -   Click on **Launch DB System**.
 
