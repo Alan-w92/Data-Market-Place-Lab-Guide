@@ -1,7 +1,7 @@
 # Application Express (APEX) Installation
 
 ![](images/200/lab200-intro.png)  
-Updated: June 4, 2019
+Updated: June 12, 2019
 
 ## Introduction
 
@@ -19,13 +19,13 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   [PuTTY Program](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) for windows systems.
 
--   Oracle Application Apex 18.2 or later (see <a href="https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html" target="\_blank">Oracle Technology Network download site</a>)
+-   Oracle Application Apex 19.1 or later (see <a href="https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html" target="\_blank">Oracle Technology Network download site</a>)
 
 # Application Express Installation
 
 ## Part 1. Obtaining APEX files 
 
-### **STEP 1: Download Oracle Application Apex 18.2 or later (see <a href="https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html" target="\_blank">Oracle Technology Network download site</a>)**
+### **STEP 1: Download Oracle Application Apex 19.1 (see <a href="https://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html" target="\_blank">Oracle Technology Network download site</a>)**
 
 -   Accept the license agreement and download the APEX zip file.
 
@@ -62,17 +62,21 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	    
 	    ![](./images/200/putty3.png)
 	    
+	    Click Yes when prompted to create your connection.
+	    
 	    Login in as **opc** with your database password.
+	    
+	    ![](./images/200/putty5.png)
 	    
 	    Use the command prompt to execute the following command. Remember to use your own IP Address.
 
-	    scp apex_18.2_en.zip opc@150.136.245.101:~/
+	    scp apex_19.1_en.zip opc@150.136.245.101:~/
 	    
-	    Click Yes when prompted to create your connection.
+	    ![](./images/200/putty6.png)
 	
 	-   For Macs use Terminal
 
-	    scp apex_18.2_en.zip opc@150.136.245.101:~/
+	    scp apex_19.1_en.zip opc@150.136.245.101:~/
 	
 	    ![](./images/200/lab200-3.png)
 
@@ -147,11 +151,11 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	
 	-   For Windows
 
-	    sudo copy apex_18.2_en.zip ../oracle
+	    sudo copy apex_19.1_en.zip ../oracle
 
 	-   For Macs
 
-	    sudo scp apex_18.2_en.zip ../oracle
+	    sudo scp apex_19.1_en.zip ../oracle
   
 
 ![](./images/200/lab200-12.png)
@@ -168,7 +172,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   Use the following command to unzip your APEX files (Replace file name with your own)
 
-	```unzip apex.zip```
+	```unzip apex_19.1_en.zip```
   
 ![](./images/200/lab200-14.png)
 
