@@ -68,15 +68,15 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	    
 	    ![](./images/200/putty5.png)
 	    
-	    Use the command prompt to execute the following command. Remember to use your own IP Address.
+	    Use the command prompt to execute the following command. Remember to use your own IP Address SSH key file path.
 
-	    scp apex_19.1_en.zip opc@150.136.245.101:~/
+	    scp -i /Users/alawang/.ssh/DataMarketPlaceKey apex_19.1_en.zip opc@150.136.245.101:~/
 	    
 	    ![](./images/200/putty6.png)
 	
 	-   For Macs use Terminal
 
-	    scp apex_19.1_en.zip opc@150.136.245.101:~/
+	    scp -i /Users/alawang/.ssh/DataMarketPlaceKey apex_19.1_en.zip opc@150.136.245.101:~/
 	
 	    ![](./images/200/lab200-3.png)
 
