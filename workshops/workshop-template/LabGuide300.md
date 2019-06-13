@@ -41,11 +41,11 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 	
 	-   For Windows use Command Prompt
 
-	    scp ords-19.zip opc@150.136.245.101:~/
+	    scp -i /Users/alawang/.ssh/DataMarketPlaceKey ords-19.zip opc@150.136.245.101:~/
 
 	-   For Macs use Terminal
 
-	    scp ords-19.zip opc@150.136.245.101:~/
+	    scp -i /Users/alawang/.ssh/DataMarketPlaceKey ords-19.zip opc@150.136.245.101:~/
   
   
 ![](./images/300/lab300-4.png)
