@@ -78,7 +78,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 	    scp -i /Users/alawang/.ssh/DataMarketPlaceKey apex_19.1_en.zip opc@150.136.245.101:~/
 	
-	  
+	    ![](./images/200/lab200-3.png)
 
 ## Part 2. Using Secure Shell (SSH) to log into your database instance
 
