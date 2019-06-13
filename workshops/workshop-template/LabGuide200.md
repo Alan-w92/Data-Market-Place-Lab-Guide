@@ -72,7 +72,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 	    scp -i /Users/alawang/.ssh/DataMarketPlaceKey apex_19.1_en.zip opc@150.136.245.101:~/
 	    
-	    
+	    ![](./images/200/putty6.png)
 	
 	-   For Macs use Terminal
 
