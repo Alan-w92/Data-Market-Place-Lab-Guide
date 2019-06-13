@@ -199,6 +199,8 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	username and password of the user to anything you wish.)
 	
 	CREATE PLUGGABLE DATABASE pdb1 ADMIN USER pdb_adm IDENTIFIED BY Password1;
+	
+	ALTER PLUGGABLE DATABASE PDB1 OPEN READ WRITE;
   
 ![](./images/200/lab200-17.png)
 
