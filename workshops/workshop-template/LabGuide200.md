@@ -242,25 +242,28 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   Create a network ACE for APEX (This is used when consuming Web services or sending outbound mail. Replace the * with your own IP).
 
-	```l_acl_path varchar2(4000);*
+	```
+	declare
 	
-	l_apex_schema varchar2(100);*
+	l_acl_path varchar2(4000);
 	
-	begin*
+	l_apex_schema varchar2(100);
 	
-	for c1 in (select schema from sys.dba_registry where comp_id = ‘APEX’) loop*
+	begin
 	
-	l_apex_schema := c1.schema;*
+	for c1 in (select schema from sys.dba_registry where comp_id = ‘APEX’) loop
 	
-	end loop;*
+	l_apex_schema := c1.schema;
 	
- 	sys.dbms_network_acl_admin.append_host_ace(host => ‘*‘,ace => xs$ace_type(privilege_list => xs$name_list(‘connect’),principal_name => l_apex_schema,principal_type => xs_acl.ptype_db));*
+	end loop;
+	
+ 	sys.dbms_network_acl_admin.append_host_ace(host => ‘*‘,ace => xs$ace_type(privilege_list => xs$name_list(‘connect’),principal_name => l_apex_schema,principal_type => xs_acl.ptype_db));
 	 
 	commit;
 	
-	*end;*
+	end;
 	
-	*/*
+	/
 	```
   
 ![](./images/200/lab200-21.png)
