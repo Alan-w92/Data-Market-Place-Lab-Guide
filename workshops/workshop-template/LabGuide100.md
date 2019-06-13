@@ -147,7 +147,7 @@ Available Storage Size (GB):          256
 
 -   Fill out **DataMarketPlace** for database name, **pdb1** for pluggable database and **DataDemo123#_** for the password.
 
-<img src="./images/100/lab100-14.png" width="500" height="650">
+
 
 -   Click on **Launch DB System**.
 
