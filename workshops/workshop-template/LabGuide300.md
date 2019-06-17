@@ -186,7 +186,7 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 	```lsnrctl status```
   
-![](./images/300/lab300-30.png)
+
 
 -   Change to params directory with the following command.
 
@@ -205,11 +205,11 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 ![](./images/300/lab300-33.png)
 
--   Delete all the content and replace with the text below. Use your own hostname and servicename.
+-   Delete all the content and replace with the text below. Use your own hostname and pluggable database servicename.
 
 ```db.hostname=apex (Change Hostname for your Database Instance)
 db.port=1521
-db.servicename=pdb1.demosubnet1.vcn1.oraclevcn.com (Change servicename for your Database Instance)
+db.servicename=pdb1.demosubnet1.vcn1.oraclevcn.com (Change servicename for your Pluggable Database Instance)
 db.username=APEX_PUBLIC_USER
 db.password=BEstrO0ng_#11
 migrate.apex.rest=false
