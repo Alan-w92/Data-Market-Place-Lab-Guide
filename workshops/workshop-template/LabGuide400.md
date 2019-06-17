@@ -37,7 +37,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
     	
 	```service postfix start```
 
-
+![](./images/400/lab400-3.png)
 
 -   Change to Oracle user with the following command.
 
@@ -80,7 +80,6 @@ Pass:			BEstrO0ng_#33
 -   Expand your Manage Instance tab and click on **Instance Settings**.
   
 ![](./images/400/lab400-13.png) 
-
 
 -   Change Provisioning settings to last option.
 
