@@ -186,7 +186,7 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 	```lsnrctl status```
   
-
+![](./images/300/lab300-30.png)
 
 -   Change to params directory with the following command.
 
