@@ -35,9 +35,9 @@ This lab walks you through the steps to use and manage Application Express (APEX
 
 -   Start mailing service.
     	
-	```Service postfix start```
+	```service postfix start```
 
-![](./images/400/lab400-3.png)
+
 
 -   Change to Oracle user with the following command.
 
