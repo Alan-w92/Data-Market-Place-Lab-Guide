@@ -207,7 +207,9 @@ This lab walks you through the steps to install Oracle Rest Data Services (ORDS)
 
 -   Delete all the content and replace with the text below. Use your own hostname and pluggable database servicename.
 
-```db.hostname=apex (Change Hostname for your Database Instance)
+```
+db.hostname=apex (Change Hostname for your Database Instance)
+db.password=YourDatabasePassword
 db.port=1521
 db.servicename=pdb1.demosubnet1.vcn1.oraclevcn.com (Change servicename for your Pluggable Database Instance)
 db.username=APEX_PUBLIC_USER
