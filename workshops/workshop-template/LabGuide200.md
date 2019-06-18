@@ -233,7 +233,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	/
 	```
 
-
+![](./images/200/lab200-19.png)
 
 -   Run APEX REST configuration, and set the passwords of APEX_REST_PUBLIC_USER and APEX_LISTENER.
 
