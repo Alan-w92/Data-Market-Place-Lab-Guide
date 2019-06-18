@@ -72,7 +72,7 @@ This lab walks you through the steps to use and manage Application Express (APEX
 ```
 Admin Workspace:	INTERNAL
 User:			ADMIN
-Pass:			BEstrO0ng_#33
+Pass:			BEstrO0ng_#11
 ```
 
 ![](./images/400/lab400-12.png) 
