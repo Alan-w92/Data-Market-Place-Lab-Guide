@@ -133,19 +133,19 @@ Pass:			BEstrO0ng_#11
   
 -   Expand your Manage Requests tab and click on **All Requests**.
 
-![](./images/400/lab400-12.png)
+![](./images/400/lab400-13.png)
 
 -   Click on the pencil next to the workspace you want to approve.
 
-![](./images/400/lab400-13.png)
+![](./images/400/lab400-14.png)
 
 -   Click on **Approve**.
 
-![](./images/400/lab400-14.png)
+![](./images/400/lab400-15.png)
 
 -   Click on **Approve and Send Email**.
 
-![](./images/400/lab400-15.png)
+![](./images/400/lab400-16.png)
 
 -   An email will be sent to the email you used. Navigate to the email and click **Create Workspace**.
 
