@@ -79,11 +79,11 @@ Pass:			BEstrO0ng_#11
   
 -   Expand your Manage Instance tab and click on **Instance Settings**.
   
-![](./images/400/lab400-13.png) 
+![](./images/400/lab400-20.png) 
 
 -   Change Provisioning settings to last option.
 
-![](./images/400/lab400-14.png) 
+![](./images/400/lab400-21.png) 
 
 -   Fill in the **Notification Email Address** with the email address you used to create your workspace.
 
