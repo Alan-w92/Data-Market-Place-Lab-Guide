@@ -91,7 +91,7 @@ Pass:			BEstrO0ng_#11
 
 -   Click on the Email tab.
   
-![](./images/400/lab400-15.png) 
+![](./images/400/lab400-22.png) 
 
 -   Replace the IP addresses in the three red boxed fields with your own IP address.
 
