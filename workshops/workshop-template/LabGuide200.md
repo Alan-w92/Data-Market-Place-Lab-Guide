@@ -215,7 +215,8 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 
 -   Create the APEX Instance Administration user and set the password.
 	
-	```begin
+	```
+	begin
 	
 	apex_util.set_security_group_id( 10 );
 	
