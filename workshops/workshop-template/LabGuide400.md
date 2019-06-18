@@ -121,6 +121,32 @@ Pass:			BEstrO0ng_#11
   
 ![](./images/400/lab400-10.png)
 
+-   Navigate to APEX with the following url (Replace brackets and its content with your own IP address ).
+
+  	```http://<Your IP Address>:8080/ords```
+  
+![](./images/400/lab400-7.png) 
+
+-   Log into your internal APEX workspace.
+
+![](./images/400/lab400-12.png) 
+  
+-   Expand your Manage Requests tab and click on **All Requests**.
+
+![](./images/400/lab400-12.png)
+
+-   Click on the pencil next to the workspace you want to approve.
+
+![](./images/400/lab400-13.png)
+
+-   Click on **Approve**.
+
+![](./images/400/lab400-14.png)
+
+-   Click on **Approve and Send Email**.
+
+![](./images/400/lab400-15.png)
+
 -   An email will be sent to the email you used. Navigate to the email and click **Create Workspace**.
 
 ![](./images/400/lab400-11.png)
