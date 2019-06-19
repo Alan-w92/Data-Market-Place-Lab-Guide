@@ -267,7 +267,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	/
 	```
   
-![](./images/200/lab200-21.png)
+
   
 -   Exit SQL*Plus with ```exit``` command.
 
