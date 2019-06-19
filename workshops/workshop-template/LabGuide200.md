@@ -194,8 +194,6 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	
   
 ![](./images/200/lab200-16.png)
-  
-![](./images/200/lab200-17.png)
 
 -   Wait until you see sql prompt.
 
