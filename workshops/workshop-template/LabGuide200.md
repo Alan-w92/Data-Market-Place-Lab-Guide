@@ -194,15 +194,6 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 	
   
 ![](./images/200/lab200-16.png)
-
-  (Note: If pdb1 doesn’t exist, then you may create one with this command. Change the
-	username and password of the user to anything you wish.)
-	
-	CREATE PLUGGABLE DATABASE pdb1 ADMIN USER pdb_adm IDENTIFIED BY Password1;
-	
-	ALTER PLUGGABLE DATABASE PDB1 OPEN READ WRITE;
-	
-	ALTER DATABASE DEFAULT TABLESPACE sysaux;
   
 ![](./images/200/lab200-17.png)
 
