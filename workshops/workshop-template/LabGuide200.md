@@ -241,7 +241,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
   
 ![](./images/200/lab200-20.png)
 
--   Create a network ACE for APEX. This is used when consuming Web services or sending outbound mail. Replace the * with your own IP. (Note: Copy and pasting will likely result in quotes changing to a different format which causes errors. Manually type this in your terminal if you run into errors.)
+-   Create a network ACE for APEX. This is used when consuming Web services or sending outbound mail. (Note: Copy and pasting will likely result in quotes changing to a different format which causes errors. Manually type this in your terminal if you run into errors.)
 
 	```
 	declare
