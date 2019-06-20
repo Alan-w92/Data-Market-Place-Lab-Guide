@@ -204,7 +204,7 @@ This lab walks you through the steps to install Application Express (APEX) onto 
 ![](./images/200/lab200-18.png)
 
 
--   Create the APEX Instance Administration user and set the password.
+-   Create the APEX Instance Administration user and set the password. (Note: Copy and pasting this may result in a quotation mark format change which will cause errors.)
 	
 	```
 	begin
