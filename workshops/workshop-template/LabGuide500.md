@@ -267,7 +267,7 @@ Service Name:			Your database service name can be found by using SSH to log into
         
 ![](./images/500/lab500-49.png)
 
--   Click **Next** and proceed to click **Finish** to import the table.
+-   Click **Next** and proceed to click **Finish** to import the table. (Note: You will get a message for some rows that don't contain values. You can click **ok** for the missing data.)
 
 ![](./images/500/lab500-50.png)
 
