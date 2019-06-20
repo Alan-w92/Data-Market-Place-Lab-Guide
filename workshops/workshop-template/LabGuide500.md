@@ -40,7 +40,7 @@ This lab walks your company through the steps to set up and configure Data Marke
 
     150.136.245.101 (Note: Use Ctrl + F or CMD + F to bring up the search option in your editor)
     
-
+![](./images/500/lab500-1.png)
 
 ### **STEP 2: Logging into APEX workspace**
 
