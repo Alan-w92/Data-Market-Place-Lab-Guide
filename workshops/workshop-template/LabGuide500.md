@@ -162,21 +162,33 @@ This lab walks your company through the steps to set up and configure Data Marke
 
 -   Click on **App Builder** to navigate back to the main page.
 
+![](./images/500/lab500-65.png)
+
 -   Click on **Data Marketplace Administration application** (ID 101)
 
 ![](./images/500/lab500-22.png)
 
 -   Click on **1 - Data Market Place Administration**.
 
+![](./images/500/lab500-66.png)
+
 -   Click on **Processin tab**. Click on **Save Interactive Grid Data**. 
 
+![](./images/500/lab500-67.png)
+
 -   Click on the Code Editor.
+
+![](./images/500/lab500-68.png)
 
 -   Navigate down to line 34 and change the pluggable database servicename to your own servicename.
 
 -   Navigate down to line 38 and change the IP address to your own IP address. Click on **OK**.
 
+![](./images/500/lab500-69.png)
+
 -   Click on **Save**.
+
+![](./images/500/lab500-70.png)
 
 ## Part 2. Load data sets through SQL Developer
 
