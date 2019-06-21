@@ -164,9 +164,13 @@ This lab walks your company through the steps to set up and configure Data Marke
 
 -   Click on **Data Marketplace Administration application** (ID 101)
 
+![](./images/500/lab500-22.png)
+
 -   Click on **1 - Data Market Place Administration**.
 
--   Click on **Processin tab**. Click on **Save Interactive Grid Data**. Click on the Code Editor.
+-   Click on **Processin tab**. Click on **Save Interactive Grid Data**. 
+
+-   Click on the Code Editor.
 
 -   Navigate down to line 34 and change the pluggable database servicename to your own servicename.
 
