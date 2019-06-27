@@ -325,7 +325,7 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 ![](./images/500/lab500-53.png)
 
--   Download Database SQL File and copy and paste the SQL statements into your worksheet. Run the Statements by clicking the **Run Script** button.
+-   Download Database SQL File and copy and paste the SQL statements into your worksheet. Run the Statements by clicking the **Run Script** button. (Note: The SQL statements must be ran separately. Refer to the pictures below for which statements to run before running the next set.)
 
 ![](./images/500/lab500-54.png)
 
