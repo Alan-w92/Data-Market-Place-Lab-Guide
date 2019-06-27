@@ -1,7 +1,7 @@
 # Getting Started with Data Marketplace
 
 ![](images/500/lab500-intro.png)  
-Updated: June 4, 2019
+Updated: June 27, 2019
 
 ## Introduction
 
