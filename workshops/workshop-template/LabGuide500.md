@@ -333,11 +333,11 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 ![](./images/500/lab500-73.png)
 
-![](./images/500/lab500-74.png)
+<img src="./images/500/lab500-74.png" height="220" width="770">
 
-![](./images/500/lab500-75.png)
+<img src="./images/500/lab500-75.png" height="30" width="500">
 
-![](./images/500/lab500-76.png)
+<img src="./images/500/lab500-76.png" height="140" width="550">
 
 ![](./images/500/lab500-77.png)
 
