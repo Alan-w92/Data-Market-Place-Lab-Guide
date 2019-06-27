@@ -329,21 +329,21 @@ Service Name:			Your database service name can be found by using SSH to log into
 
 ![](./images/500/lab500-54.png)
 
-![](./images/500/lab500-65.png)
-
-![](./images/500/lab500-66.png)
-
-![](./images/500/lab500-67.png)
-
-![](./images/500/lab500-68.png)
-
-![](./images/500/lab500-69.png)
-
-![](./images/500/lab500-70.png)
-
-![](./images/500/lab500-71.png)
-
 ![](./images/500/lab500-72.png)
+
+![](./images/500/lab500-73.png)
+
+![](./images/500/lab500-74.png)
+
+![](./images/500/lab500-75.png)
+
+![](./images/500/lab500-76.png)
+
+![](./images/500/lab500-77.png)
+
+![](./images/500/lab500-78.png)
+
+![](./images/500/lab500-79.png)
 
 ## Part 4. Starting Data Marketplace application
 
