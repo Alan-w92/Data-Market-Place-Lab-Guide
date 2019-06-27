@@ -93,7 +93,7 @@ Pass:			BEstrO0ng_#11
   
 ![](./images/400/lab400-22.png) 
 
--   Replace the IP addresses in the three red boxed fields with your own IP address.
+-   Replace the IP addresses in the three red boxed fields with your own IP address and email.
 
 ![](./images/400/lab400-19.png) 
 
