@@ -44,6 +44,8 @@ This lab walks your company through the steps to set up and configure Data Marke
 
 -   Open Database SQL 19.1.sql and replace **Your Database IP Address** at line 1 with your IP Address and save it.
 
+![](./images/500/lab500-71.png)
+
 ### **STEP 2: Logging into APEX workspace**
 
 -   Open windows PuTTY program or mac Terminal.
